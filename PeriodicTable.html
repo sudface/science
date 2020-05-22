@@ -1,0 +1,781 @@
+
+  
+  <html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Useful Periodic Table</title>
+<link href="css/trontastic/theme.css" type="text/css" rel="stylesheet">
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="js/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script><script src="js/flexigrid.pack.js" type="text/javascript"></script><script src="js/jquery-search.js" type="text/javascript"></script><script src="js/ui.selectmenu.js" type="text/javascript"></script><script src="js/periodic.table.js" type="text/javascript"></script><script src="js/preferences.js" type="text/javascript"></script><script src="js/suc.utils.js" type="text/javascript"></script><script src="js/table.view.js" type="text/javascript"></script><script src="js/quiz.view.js" type="text/javascript"></script><script src="js/preference.view.js" type="text/javascript"></script><script src="js/tools.view.js" type="text/javascript"></script><script src="js/about.view.js" type="text/javascript"></script><script src="js/main.view.js" type="text/javascript"></script>
+<style type="text/css" media="screen">
+    		svg {
+      		    position:relative; top:0; left:0; height:100%; width:100%;
+    		}
+
+    		.tab-icon-toolbar {
+    			float: right !important;
+    			background: none repeat scroll 0 0 transparent !important;
+    			border: none !important;
+    		}
+
+            #elementdialog.ui-dialog #dialog.ui-dialog-content, #elementtabs.ui-tabs { padding:0; }
+            #elementdialog>.ui-dialog-titlebar { display:none; }
+            #elementtabs { border:0; }
+            #ui-tab-dialog-close { position:absolute; right:0; top:23px; }
+            #ui-tab-dialog-close a { float:none; padding:0; }
+  	   </style>
+</head>
+<body style="background-color: #2B2E2E;">
+<div id="maintabs" style="min-width: 1024px; min-height: 768px; overflow: hidden;">
+<ul>
+<li>
+<a href="#tabs-1"><img src="images/blank.png" class="main-tab-img maintab-table maintab-selected">Periodic Table</a>
+</li>
+<li>
+<a href="#tabs-2"><img src="images/blank.png" class="main-tab-img maintab-quiz">Quiz</a>
+</li>
+<li>
+<a href="#prefs"><img src="images/blank.png" class="main-tab-img maintab-prefs">Preferences</a>
+</li>
+<li id="tools-tab">
+<a href="#tools"><img src="images/blank.png" class="main-tab-img maintab-tools">Tools</a>
+</li>
+<li>
+<a href="#about"><img src="images/blank.png" class="main-tab-img maintab-about">About</a>
+</li>
+<li class="tab-icon-toolbar">
+<form id="searchForm" action="#">
+<fieldset id="searchbox" class="searchbox">
+<div class="input">
+<input type="text" name="s" id="s" value="Name, # or Symbol">
+</div>
+<input type="submit" id="searchSubmit" value="">
+</fieldset>
+</form>
+</li>
+</ul>
+<div id="tabs-1" style="width: 100%;">
+<div id="tableoptions" class="table-options ui-corner-bottom ui-state-active"></div>
+<div class="table-options-button-close ui-state-active ui-corner-bottom">
+<span class="ui-icon ui-icon-circle-triangle-s"></span><span>Options</span>
+</div>
+<div id="table-content">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1290 730" width="100%" height="100%">
+<rect rx="5" ry="5" width="70" height="70" x="15" y="15" element-id="H" element-type="nonmetal" style="fill:#00EE00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00EE00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="17" y="80" element-id="H">Hydrogen</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="17" y="70" element-id="H" default-value="1.00794">1.00794</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="65" y="25" element-id="H">001</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="50" y="55" element-id="H">H</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="15" element-id="He" element-type="noble_gases" style="fill:#66AAFF;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#66AAFF"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="80" element-id="He">Helium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="70" element-id="He" default-value="4.002602">4.002602</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="25" element-id="He">002</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="55" element-id="He">He</text>
+<rect rx="5" ry="5" width="70" height="70" x="15" y="85" element-id="Li" element-type="alkali_metal" style="fill:#FFAA00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="17" y="150" element-id="Li">Lithium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="17" y="140" element-id="Li" default-value="6.941">6.941</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="65" y="95" element-id="Li">003</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="50" y="125" element-id="Li">Li</text>
+<rect rx="5" ry="5" width="70" height="70" x="85" y="85" element-id="Be" element-type="alkaline_earth_metal" style="fill:#F3F300;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#F3F300"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="87" y="150" element-id="Be">Beryllium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="87" y="140" element-id="Be" default-value="9.012182">9.012182</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="135" y="95" element-id="Be">004</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="120" y="125" element-id="Be">Be</text>
+<rect rx="5" ry="5" width="70" height="70" x="855" y="85" element-id="B" element-type="metalloid" style="fill:#55CC55;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#55CC55"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="857" y="150" element-id="B">Boron</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="857" y="140" element-id="B" default-value="10.811">10.811</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="905" y="95" element-id="B">005</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="890" y="125" element-id="B">B</text>
+<rect rx="5" ry="5" width="70" height="70" x="925" y="85" element-id="C" element-type="nonmetal" style="fill:#00EE00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00EE00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="927" y="150" element-id="C">Carbon</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="927" y="140" element-id="C" default-value="12.0107">12.0107</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="975" y="95" element-id="C">006</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="960" y="125" element-id="C">C</text>
+<rect rx="5" ry="5" width="70" height="70" x="995" y="85" element-id="N" element-type="nonmetal" style="fill:#00EE00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00EE00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="997" y="150" element-id="N">Nitrogen</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="997" y="140" element-id="N" default-value="14.0067">14.0067</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1045" y="95" element-id="N">007</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1030" y="125" element-id="N">N</text>
+<rect rx="5" ry="5" width="70" height="70" x="1065" y="85" element-id="O" element-type="nonmetal" style="fill:#00EE00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00EE00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1067" y="150" element-id="O">Oxygen</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1067" y="140" element-id="O" default-value="15.9994">15.9994</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1115" y="95" element-id="O">008</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1100" y="125" element-id="O">O</text>
+<rect rx="5" ry="5" width="70" height="70" x="1135" y="85" element-id="F" element-type="halogen" style="fill:#00DDBB;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00DDBB"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1137" y="150" element-id="F">Fluorine</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1137" y="140" element-id="F" default-value="18.9984032">18.9984032</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1185" y="95" element-id="F">009</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1170" y="125" element-id="F">F</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="85" element-id="Ne" element-type="noble_gases" style="fill:#66AAFF;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#66AAFF"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="150" element-id="Ne">Neon</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="140" element-id="Ne" default-value="20.1797">20.1797</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="95" element-id="Ne">010</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="125" element-id="Ne">Ne</text>
+<rect rx="5" ry="5" width="70" height="70" x="15" y="155" element-id="Na" element-type="alkali_metal" style="fill:#FFAA00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="17" y="220" element-id="Na">Sodium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="17" y="210" element-id="Na" default-value="22.98976928">22.98976928</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="65" y="165" element-id="Na">011</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="50" y="195" element-id="Na">Na</text>
+<rect rx="5" ry="5" width="70" height="70" x="85" y="155" element-id="Mg" element-type="alkaline_earth_metal" style="fill:#F3F300;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#F3F300"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="87" y="220" element-id="Mg">Magnesium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="87" y="210" element-id="Mg" default-value="24.3050">24.3050</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="135" y="165" element-id="Mg">012</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="120" y="195" element-id="Mg">Mg</text>
+<rect rx="5" ry="5" width="70" height="70" x="855" y="155" element-id="Al" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="857" y="220" element-id="Al">Aluminium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="857" y="210" element-id="Al" default-value="26.9815386">26.9815386</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="905" y="165" element-id="Al">013</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="890" y="195" element-id="Al">Al</text>
+<rect rx="5" ry="5" width="70" height="70" x="925" y="155" element-id="Si" element-type="metalloid" style="fill:#55CC55;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#55CC55"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="927" y="220" element-id="Si">Silicon</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="927" y="210" element-id="Si" default-value="28.0855">28.0855</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="975" y="165" element-id="Si">014</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="960" y="195" element-id="Si">Si</text>
+<rect rx="5" ry="5" width="70" height="70" x="995" y="155" element-id="P" element-type="nonmetal" style="fill:#00EE00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00EE00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="997" y="220" element-id="P">Phosphorus</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="997" y="210" element-id="P" default-value="30.973762">30.973762</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1045" y="165" element-id="P">015</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1030" y="195" element-id="P">P</text>
+<rect rx="5" ry="5" width="70" height="70" x="1065" y="155" element-id="S" element-type="nonmetal" style="fill:#00EE00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00EE00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1067" y="220" element-id="S">Sulfur</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1067" y="210" element-id="S" default-value="32.065">32.065</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1115" y="165" element-id="S">016</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1100" y="195" element-id="S">S</text>
+<rect rx="5" ry="5" width="70" height="70" x="1135" y="155" element-id="Cl" element-type="halogen" style="fill:#00DDBB;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00DDBB"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1137" y="220" element-id="Cl">Chlorine</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1137" y="210" element-id="Cl" default-value="35.453">35.453</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1185" y="165" element-id="Cl">017</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1170" y="195" element-id="Cl">Cl</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="155" element-id="Ar" element-type="noble_gases" style="fill:#66AAFF;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#66AAFF"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="220" element-id="Ar">Argon</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="210" element-id="Ar" default-value="39.948">39.948</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="165" element-id="Ar">018</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="195" element-id="Ar">Ar</text>
+<rect rx="5" ry="5" width="70" height="70" x="15" y="225" element-id="K" element-type="alkali_metal" style="fill:#FFAA00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="17" y="290" element-id="K">Potassium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="17" y="280" element-id="K" default-value="39.0983">39.0983</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="65" y="235" element-id="K">019</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="50" y="265" element-id="K">K</text>
+<rect rx="5" ry="5" width="70" height="70" x="85" y="225" element-id="Ca" element-type="alkaline_earth_metal" style="fill:#F3F300;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#F3F300"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="87" y="290" element-id="Ca">Calcium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="87" y="280" element-id="Ca" default-value="40.078">40.078</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="135" y="235" element-id="Ca">020</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="120" y="265" element-id="Ca">Ca</text>
+<rect rx="5" ry="5" width="70" height="70" x="155" y="225" element-id="Sc" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="157" y="290" element-id="Sc">Scandium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="157" y="280" element-id="Sc" default-value="44.955912">44.955912</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="205" y="235" element-id="Sc">021</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="190" y="265" element-id="Sc">Sc</text>
+<rect rx="5" ry="5" width="70" height="70" x="225" y="225" element-id="Ti" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="227" y="290" element-id="Ti">Titanium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="227" y="280" element-id="Ti" default-value="47.867">47.867</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="275" y="235" element-id="Ti">022</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="260" y="265" element-id="Ti">Ti</text>
+<rect rx="5" ry="5" width="70" height="70" x="295" y="225" element-id="V" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="297" y="290" element-id="V">Vanadium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="297" y="280" element-id="V" default-value="50.9415">50.9415</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="345" y="235" element-id="V">023</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="330" y="265" element-id="V">V</text>
+<rect rx="5" ry="5" width="70" height="70" x="365" y="225" element-id="Cr" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="367" y="290" element-id="Cr">Chromium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="367" y="280" element-id="Cr" default-value="51.9961">51.9961</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="415" y="235" element-id="Cr">024</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="400" y="265" element-id="Cr">Cr</text>
+<rect rx="5" ry="5" width="70" height="70" x="435" y="225" element-id="Mn" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="437" y="290" element-id="Mn">Manganese</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="437" y="280" element-id="Mn" default-value="54.938045">54.938045</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="485" y="235" element-id="Mn">025</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="470" y="265" element-id="Mn">Mn</text>
+<rect rx="5" ry="5" width="70" height="70" x="505" y="225" element-id="Fe" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="507" y="290" element-id="Fe">Iron</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="507" y="280" element-id="Fe" default-value="55.845">55.845</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="555" y="235" element-id="Fe">026</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="540" y="265" element-id="Fe">Fe</text>
+<rect rx="5" ry="5" width="70" height="70" x="575" y="225" element-id="Co" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="577" y="290" element-id="Co">Cobalt</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="577" y="280" element-id="Co" default-value="58.933195">58.933195</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="625" y="235" element-id="Co">027</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="610" y="265" element-id="Co">Co</text>
+<rect rx="5" ry="5" width="70" height="70" x="645" y="225" element-id="Ni" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="647" y="290" element-id="Ni">Nickel</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="647" y="280" element-id="Ni" default-value="58.6934">58.6934</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="695" y="235" element-id="Ni">028</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="680" y="265" element-id="Ni">Ni</text>
+<rect rx="5" ry="5" width="70" height="70" x="715" y="225" element-id="Cu" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="717" y="290" element-id="Cu">Copper</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="717" y="280" element-id="Cu" default-value="63.546">63.546</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="765" y="235" element-id="Cu">029</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="750" y="265" element-id="Cu">Cu</text>
+<rect rx="5" ry="5" width="70" height="70" x="785" y="225" element-id="Zn" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="787" y="290" element-id="Zn">Zinc</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="787" y="280" element-id="Zn" default-value="65.38">65.38</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="835" y="235" element-id="Zn">030</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="820" y="265" element-id="Zn">Zn</text>
+<rect rx="5" ry="5" width="70" height="70" x="855" y="225" element-id="Ga" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="857" y="290" element-id="Ga">Gallium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="857" y="280" element-id="Ga" default-value="69.723">69.723</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="905" y="235" element-id="Ga">031</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="890" y="265" element-id="Ga">Ga</text>
+<rect rx="5" ry="5" width="70" height="70" x="925" y="225" element-id="Ge" element-type="metalloid" style="fill:#55CC55;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#55CC55"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="927" y="290" element-id="Ge">Germanium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="927" y="280" element-id="Ge" default-value="72.63">72.63</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="975" y="235" element-id="Ge">032</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="960" y="265" element-id="Ge">Ge</text>
+<rect rx="5" ry="5" width="70" height="70" x="995" y="225" element-id="As" element-type="metalloid" style="fill:#55CC55;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#55CC55"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="997" y="290" element-id="As">Arsenic</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="997" y="280" element-id="As" default-value="74.92160">74.92160</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1045" y="235" element-id="As">033</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1030" y="265" element-id="As">As</text>
+<rect rx="5" ry="5" width="70" height="70" x="1065" y="225" element-id="Se" element-type="nonmetal" style="fill:#00EE00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00EE00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1067" y="290" element-id="Se">Selenium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1067" y="280" element-id="Se" default-value="78.96">78.96</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1115" y="235" element-id="Se">034</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1100" y="265" element-id="Se">Se</text>
+<rect rx="5" ry="5" width="70" height="70" x="1135" y="225" element-id="Br" element-type="halogen" style="fill:#00DDBB;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00DDBB"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1137" y="290" element-id="Br">Bromine</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1137" y="280" element-id="Br" default-value="79.904">79.904</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1185" y="235" element-id="Br">035</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1170" y="265" element-id="Br">Br</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="225" element-id="Kr" element-type="noble_gases" style="fill:#66AAFF;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#66AAFF"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="290" element-id="Kr">Krypton</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="280" element-id="Kr" default-value="83.798">83.798</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="235" element-id="Kr">036</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="265" element-id="Kr">Kr</text>
+<rect rx="5" ry="5" width="70" height="70" x="15" y="295" element-id="Rb" element-type="alkali_metal" style="fill:#FFAA00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="17" y="360" element-id="Rb">Rubidium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="17" y="350" element-id="Rb" default-value="85.4678">85.4678</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="65" y="305" element-id="Rb">037</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="50" y="335" element-id="Rb">Rb</text>
+<rect rx="5" ry="5" width="70" height="70" x="85" y="295" element-id="Sr" element-type="alkaline_earth_metal" style="fill:#F3F300;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#F3F300"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="87" y="360" element-id="Sr">Strontium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="87" y="350" element-id="Sr" default-value="87.62">87.62</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="135" y="305" element-id="Sr">038</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="120" y="335" element-id="Sr">Sr</text>
+<rect rx="5" ry="5" width="70" height="70" x="155" y="295" element-id="Y" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="157" y="360" element-id="Y">Yttrium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="157" y="350" element-id="Y" default-value="88.90585">88.90585</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="205" y="305" element-id="Y">039</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="190" y="335" element-id="Y">Y</text>
+<rect rx="5" ry="5" width="70" height="70" x="225" y="295" element-id="Zr" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="227" y="360" element-id="Zr">Zirconium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="227" y="350" element-id="Zr" default-value="91.224">91.224</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="275" y="305" element-id="Zr">040</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="260" y="335" element-id="Zr">Zr</text>
+<rect rx="5" ry="5" width="70" height="70" x="295" y="295" element-id="Nb" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="297" y="360" element-id="Nb">Niobium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="297" y="350" element-id="Nb" default-value="92.90638">92.90638</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="345" y="305" element-id="Nb">041</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="330" y="335" element-id="Nb">Nb</text>
+<rect rx="5" ry="5" width="70" height="70" x="365" y="295" element-id="Mo" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="367" y="360" element-id="Mo">Molybdenum</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="367" y="350" element-id="Mo" default-value="95.94">95.94</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="415" y="305" element-id="Mo">042</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="400" y="335" element-id="Mo">Mo</text>
+<rect rx="5" ry="5" width="70" height="70" x="435" y="295" element-id="Tc" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="437" y="360" element-id="Tc">Technetium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="437" y="350" element-id="Tc" default-value="98">98</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="485" y="305" element-id="Tc">043</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="470" y="335" element-id="Tc">Tc</text>
+<rect rx="5" ry="5" width="70" height="70" x="505" y="295" element-id="Ru" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="507" y="360" element-id="Ru">Ruthenium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="507" y="350" element-id="Ru" default-value="101.07">101.07</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="555" y="305" element-id="Ru">044</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="540" y="335" element-id="Ru">Ru</text>
+<rect rx="5" ry="5" width="70" height="70" x="575" y="295" element-id="Rh" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="577" y="360" element-id="Rh">Rhodium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="577" y="350" element-id="Rh" default-value="102.90550">102.90550</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="625" y="305" element-id="Rh">045</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="610" y="335" element-id="Rh">Rh</text>
+<rect rx="5" ry="5" width="70" height="70" x="645" y="295" element-id="Pd" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="647" y="360" element-id="Pd">Palladium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="647" y="350" element-id="Pd" default-value="106.42">106.42</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="695" y="305" element-id="Pd">046</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="680" y="335" element-id="Pd">Pd</text>
+<rect rx="5" ry="5" width="70" height="70" x="715" y="295" element-id="Ag" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="717" y="360" element-id="Ag">Silver</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="717" y="350" element-id="Ag" default-value="107.8682">107.8682</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="765" y="305" element-id="Ag">047</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="750" y="335" element-id="Ag">Ag</text>
+<rect rx="5" ry="5" width="70" height="70" x="785" y="295" element-id="Cd" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="787" y="360" element-id="Cd">Cadmium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="787" y="350" element-id="Cd" default-value="112.411">112.411</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="835" y="305" element-id="Cd">048</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="820" y="335" element-id="Cd">Cd</text>
+<rect rx="5" ry="5" width="70" height="70" x="855" y="295" element-id="In" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="857" y="360" element-id="In">Indium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="857" y="350" element-id="In" default-value="114.818">114.818</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="905" y="305" element-id="In">049</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="890" y="335" element-id="In">In</text>
+<rect rx="5" ry="5" width="70" height="70" x="925" y="295" element-id="Sn" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="927" y="360" element-id="Sn">Tin</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="927" y="350" element-id="Sn" default-value="118.710">118.710</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="975" y="305" element-id="Sn">050</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="960" y="335" element-id="Sn">Sn</text>
+<rect rx="5" ry="5" width="70" height="70" x="995" y="295" element-id="Sb" element-type="metalloid" style="fill:#55CC55;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#55CC55"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="997" y="360" element-id="Sb">Antimony</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="997" y="350" element-id="Sb" default-value="121.760">121.760</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1045" y="305" element-id="Sb">051</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1030" y="335" element-id="Sb">Sb</text>
+<rect rx="5" ry="5" width="70" height="70" x="1065" y="295" element-id="Te" element-type="metalloid" style="fill:#55CC55;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#55CC55"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1067" y="360" element-id="Te">Tellurium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1067" y="350" element-id="Te" default-value="127.60">127.60</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1115" y="305" element-id="Te">052</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1100" y="335" element-id="Te">Te</text>
+<rect rx="5" ry="5" width="70" height="70" x="1135" y="295" element-id="I" element-type="halogen" style="fill:#00DDBB;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00DDBB"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1137" y="360" element-id="I">Iodine</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1137" y="350" element-id="I" default-value="126.90447">126.90447</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1185" y="305" element-id="I">053</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1170" y="335" element-id="I">I</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="295" element-id="Xe" element-type="noble_gases" style="fill:#66AAFF;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#66AAFF"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="360" element-id="Xe">Xenon</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="350" element-id="Xe" default-value="131.293">131.293</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="305" element-id="Xe">054</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="335" element-id="Xe">Xe</text>
+<rect rx="5" ry="5" width="70" height="70" x="15" y="365" element-id="Cs" element-type="alkali_metal" style="fill:#FFAA00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="17" y="430" element-id="Cs">Caesium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="17" y="420" element-id="Cs" default-value="132.9054519">132.9054519</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="65" y="375" element-id="Cs">055</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="50" y="405" element-id="Cs">Cs</text>
+<rect rx="5" ry="5" width="70" height="70" x="85" y="365" element-id="Ba" element-type="alkaline_earth_metal" style="fill:#F3F300;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#F3F300"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="87" y="430" element-id="Ba">Barium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="87" y="420" element-id="Ba" default-value="137.33">137.33</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="135" y="375" element-id="Ba">056</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="120" y="405" element-id="Ba">Ba</text>
+<rect rx="5" ry="5" width="70" height="70" x="225" y="365" element-id="Hf" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="227" y="430" element-id="Hf">Hafnium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="227" y="420" element-id="Hf" default-value="178.49">178.49</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="275" y="375" element-id="Hf">072</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="260" y="405" element-id="Hf">Hf</text>
+<rect rx="5" ry="5" width="70" height="70" x="295" y="365" element-id="Ta" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="297" y="430" element-id="Ta">Tantalum</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="297" y="420" element-id="Ta" default-value="180.94788">180.94788</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="345" y="375" element-id="Ta">073</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="330" y="405" element-id="Ta">Ta</text>
+<rect rx="5" ry="5" width="70" height="70" x="365" y="365" element-id="W" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="367" y="430" element-id="W">Tungsten</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="367" y="420" element-id="W" default-value="183.84">183.84</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="415" y="375" element-id="W">074</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="400" y="405" element-id="W">W</text>
+<rect rx="5" ry="5" width="70" height="70" x="435" y="365" element-id="Re" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="437" y="430" element-id="Re">Rhenium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="437" y="420" element-id="Re" default-value="186.207">186.207</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="485" y="375" element-id="Re">075</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="470" y="405" element-id="Re">Re</text>
+<rect rx="5" ry="5" width="70" height="70" x="505" y="365" element-id="Os" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="507" y="430" element-id="Os">Osmium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="507" y="420" element-id="Os" default-value="190.23">190.23</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="555" y="375" element-id="Os">076</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="540" y="405" element-id="Os">Os</text>
+<rect rx="5" ry="5" width="70" height="70" x="575" y="365" element-id="Ir" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="577" y="430" element-id="Ir">Iridium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="577" y="420" element-id="Ir" default-value="192.217">192.217</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="625" y="375" element-id="Ir">077</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="610" y="405" element-id="Ir">Ir</text>
+<rect rx="5" ry="5" width="70" height="70" x="645" y="365" element-id="Pt" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="647" y="430" element-id="Pt">Platinum</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="647" y="420" element-id="Pt" default-value="195.084">195.084</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="695" y="375" element-id="Pt">078</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="680" y="405" element-id="Pt">Pt</text>
+<rect rx="5" ry="5" width="70" height="70" x="715" y="365" element-id="Au" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="717" y="430" element-id="Au">Gold</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="717" y="420" element-id="Au" default-value="196.966569">196.966569</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="765" y="375" element-id="Au">079</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="750" y="405" element-id="Au">Au</text>
+<rect rx="5" ry="5" width="70" height="70" x="785" y="365" element-id="Hg" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="787" y="430" element-id="Hg">Mercury</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="787" y="420" element-id="Hg" default-value="200.59">200.59</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="835" y="375" element-id="Hg">080</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="820" y="405" element-id="Hg">Hg</text>
+<rect rx="5" ry="5" width="70" height="70" x="855" y="365" element-id="Tl" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="857" y="430" element-id="Tl">Thallium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="857" y="420" element-id="Tl" default-value="204.3833">204.3833</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="905" y="375" element-id="Tl">081</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="890" y="405" element-id="Tl">Tl</text>
+<rect rx="5" ry="5" width="70" height="70" x="925" y="365" element-id="Pb" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="927" y="430" element-id="Pb">Lead</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="927" y="420" element-id="Pb" default-value="207.2">207.2</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="975" y="375" element-id="Pb">082</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="960" y="405" element-id="Pb">Pb</text>
+<rect rx="5" ry="5" width="70" height="70" x="995" y="365" element-id="Bi" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="997" y="430" element-id="Bi">Bismuth</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="997" y="420" element-id="Bi" default-value="208.98040">208.98040</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1045" y="375" element-id="Bi">083</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1030" y="405" element-id="Bi">Bi</text>
+<rect rx="5" ry="5" width="70" height="70" x="1065" y="365" element-id="Po" element-type="metalloid" style="fill:#55CC55;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#55CC55"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1067" y="430" element-id="Po">Polonium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1067" y="420" element-id="Po" default-value="(209)">(209)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1115" y="375" element-id="Po">084</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1100" y="405" element-id="Po">Po</text>
+<rect rx="5" ry="5" width="70" height="70" x="1135" y="365" element-id="At" element-type="halogen" style="fill:#00DDBB;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00DDBB"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1137" y="430" element-id="At">Astatine</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1137" y="420" element-id="At" default-value="(210)">(210)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1185" y="375" element-id="At">085</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1170" y="405" element-id="At">At</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="365" element-id="Rn" element-type="noble_gases" style="fill:#66AAFF;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#66AAFF"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="430" element-id="Rn">Radon</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="420" element-id="Rn" default-value="(222)">(222)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="375" element-id="Rn">086</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="405" element-id="Rn">Rn</text>
+<rect rx="5" ry="5" width="70" height="70" x="15" y="435" element-id="Fr" element-type="alkali_metal" style="fill:#FFAA00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA00"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="17" y="500" element-id="Fr">Francium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="17" y="490" element-id="Fr" default-value="(223)">(223)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="65" y="445" element-id="Fr">087</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="50" y="475" element-id="Fr">Fr</text>
+<rect rx="5" ry="5" width="70" height="70" x="85" y="435" element-id="Ra" element-type="alkaline_earth_metal" style="fill:#F3F300;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#F3F300"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="87" y="500" element-id="Ra">Radium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="87" y="490" element-id="Ra" default-value="(226.03)">(226.03)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="135" y="445" element-id="Ra">088</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="120" y="475" element-id="Ra">Ra</text>
+<rect rx="5" ry="5" width="70" height="70" x="225" y="435" element-id="Rf" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="227" y="500" element-id="Rf">Rutherfordium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="227" y="490" element-id="Rf" default-value="(267)">(267)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="275" y="445" element-id="Rf">104</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="260" y="475" element-id="Rf">Rf</text>
+<rect rx="5" ry="5" width="70" height="70" x="295" y="435" element-id="Db" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="297" y="500" element-id="Db">Dubnium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="297" y="490" element-id="Db" default-value="(268)">(268)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="345" y="445" element-id="Db">105</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="330" y="475" element-id="Db">Db</text>
+<rect rx="5" ry="5" width="70" height="70" x="365" y="435" element-id="Sg" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="367" y="500" element-id="Sg">Seaborgium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="367" y="490" element-id="Sg" default-value="(269)">(269)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="415" y="445" element-id="Sg">106</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="400" y="475" element-id="Sg">Sg</text>
+<rect rx="5" ry="5" width="70" height="70" x="435" y="435" element-id="Bh" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="437" y="500" element-id="Bh">Bohrium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="437" y="490" element-id="Bh" default-value="(270)">(270)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="485" y="445" element-id="Bh">107</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="470" y="475" element-id="Bh">Bh</text>
+<rect rx="5" ry="5" width="70" height="70" x="505" y="435" element-id="Hs" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="507" y="500" element-id="Hs">Hassium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="507" y="490" element-id="Hs" default-value="(269)">(269)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="555" y="445" element-id="Hs">108</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="540" y="475" element-id="Hs">Hs</text>
+<rect rx="5" ry="5" width="70" height="70" x="575" y="435" element-id="Mt" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="577" y="500" element-id="Mt">Meitnerium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="577" y="490" element-id="Mt" default-value="(278)">(278)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="625" y="445" element-id="Mt">109</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="610" y="475" element-id="Mt">Mt</text>
+<rect rx="5" ry="5" width="70" height="70" x="645" y="435" element-id="Ds" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="647" y="500" element-id="Ds">Darmstadtium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="647" y="490" element-id="Ds" default-value="(281)">(281)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="695" y="445" element-id="Ds">110</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="680" y="475" element-id="Ds">Ds</text>
+<rect rx="5" ry="5" width="70" height="70" x="715" y="435" element-id="Rg" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="717" y="500" element-id="Rg">Roentgenium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="717" y="490" element-id="Rg" default-value="(281)">(281)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="765" y="445" element-id="Rg">111</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="750" y="475" element-id="Rg">Rg</text>
+<rect rx="5" ry="5" width="70" height="70" x="785" y="435" element-id="Cn" element-type="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="787" y="500" element-id="Cn">Copernicium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="787" y="490" element-id="Cn" default-value="(285)">(285)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="835" y="445" element-id="Cn">112</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="820" y="475" element-id="Cn">Cn</text>
+<rect rx="5" ry="5" width="70" height="70" x="855" y="435" element-id="Nh" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="857" y="500" element-id="Nh">Nihonium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="857" y="490" element-id="Nh" default-value="(286)">(286)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="905" y="445" element-id="Nh">113</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="890" y="475" element-id="Nh">Nh</text>
+<rect rx="5" ry="5" width="70" height="70" x="925" y="435" element-id="Fl" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="927" y="500" element-id="Fl">Flerovium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="927" y="490" element-id="Fl" default-value="(289)">(289)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="975" y="445" element-id="Fl">114</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="960" y="475" element-id="Fl">Fl</text>
+<rect rx="5" ry="5" width="70" height="70" x="995" y="435" element-id="Mc" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="997" y="500" element-id="Mc">Moscovium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="997" y="490" element-id="Mc" default-value="(288)">(288)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1045" y="445" element-id="Mc">115</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1030" y="475" element-id="Mc">Mc</text>
+<rect rx="5" ry="5" width="70" height="70" x="1065" y="435" element-id="Lv" element-type="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1067" y="500" element-id="Lv">Livermorium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1067" y="490" element-id="Lv" default-value="(293)">(293)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1115" y="445" element-id="Lv">116</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1100" y="475" element-id="Lv">Lv</text>
+<rect rx="5" ry="5" width="70" height="70" x="1135" y="435" element-id="Ts" element-type="halogen" style="fill:#00DDBB;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00DDBB"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1137" y="500" element-id="Ts">Tennessine</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1137" y="490" element-id="Ts" default-value="(294)">(294)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1185" y="445" element-id="Ts">117</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1170" y="475" element-id="Ts">Ts</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="435" element-id="Og" element-type="noble_gases" style="fill:#66AAFF;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#66AAFF"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="500" element-id="Og">Oganesson</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="490" element-id="Og" default-value="(294)">(294)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="445" element-id="Og">118</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="475" element-id="Og">Og</text>
+<rect rx="5" ry="5" width="70" height="70" x="225" y="575" element-id="La" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="227" y="640" element-id="La">Lanthanum</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="227" y="630" element-id="La" default-value="138.90547">138.90547</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="275" y="585" element-id="La">057</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="260" y="615" element-id="La">La</text>
+<rect rx="5" ry="5" width="70" height="70" x="295" y="575" element-id="Ce" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="297" y="640" element-id="Ce">Cerium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="297" y="630" element-id="Ce" default-value="140.116">140.116</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="345" y="585" element-id="Ce">058</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="330" y="615" element-id="Ce">Ce</text>
+<rect rx="5" ry="5" width="70" height="70" x="365" y="575" element-id="Pr" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="367" y="640" element-id="Pr">Praseodymium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="367" y="630" element-id="Pr" default-value="140.90765">140.90765</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="415" y="585" element-id="Pr">059</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="400" y="615" element-id="Pr">Pr</text>
+<rect rx="5" ry="5" width="70" height="70" x="435" y="575" element-id="Nd" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="437" y="640" element-id="Nd">Neodymium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="437" y="630" element-id="Nd" default-value="144.242">144.242</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="485" y="585" element-id="Nd">060</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="470" y="615" element-id="Nd">Nd</text>
+<rect rx="5" ry="5" width="70" height="70" x="505" y="575" element-id="Pm" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="507" y="640" element-id="Pm">Promethium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="507" y="630" element-id="Pm" default-value="(145)">(145)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="555" y="585" element-id="Pm">061</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="540" y="615" element-id="Pm">Pm</text>
+<rect rx="5" ry="5" width="70" height="70" x="575" y="575" element-id="Sm" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="577" y="640" element-id="Sm">Samarium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="577" y="630" element-id="Sm" default-value="150.36">150.36</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="625" y="585" element-id="Sm">062</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="610" y="615" element-id="Sm">Sm</text>
+<rect rx="5" ry="5" width="70" height="70" x="645" y="575" element-id="Eu" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="647" y="640" element-id="Eu">Europium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="647" y="630" element-id="Eu" default-value="151.964">151.964</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="695" y="585" element-id="Eu">063</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="680" y="615" element-id="Eu">Eu</text>
+<rect rx="5" ry="5" width="70" height="70" x="715" y="575" element-id="Gd" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="717" y="640" element-id="Gd">Gadolinium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="717" y="630" element-id="Gd" default-value="157.25">157.25</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="765" y="585" element-id="Gd">064</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="750" y="615" element-id="Gd">Gd</text>
+<rect rx="5" ry="5" width="70" height="70" x="785" y="575" element-id="Tb" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="787" y="640" element-id="Tb">Terbium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="787" y="630" element-id="Tb" default-value="158.92535">158.92535</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="835" y="585" element-id="Tb">065</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="820" y="615" element-id="Tb">Tb</text>
+<rect rx="5" ry="5" width="70" height="70" x="855" y="575" element-id="Dy" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="857" y="640" element-id="Dy">Dysprosium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="857" y="630" element-id="Dy" default-value="162.500">162.500</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="905" y="585" element-id="Dy">066</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="890" y="615" element-id="Dy">Dy</text>
+<rect rx="5" ry="5" width="70" height="70" x="925" y="575" element-id="Ho" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="927" y="640" element-id="Ho">Holmium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="927" y="630" element-id="Ho" default-value="164.93032">164.93032</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="975" y="585" element-id="Ho">067</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="960" y="615" element-id="Ho">Ho</text>
+<rect rx="5" ry="5" width="70" height="70" x="995" y="575" element-id="Er" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="997" y="640" element-id="Er">Erbium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="997" y="630" element-id="Er" default-value="167.259">167.259</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1045" y="585" element-id="Er">068</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1030" y="615" element-id="Er">Er</text>
+<rect rx="5" ry="5" width="70" height="70" x="1065" y="575" element-id="Tm" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1067" y="640" element-id="Tm">Thulium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1067" y="630" element-id="Tm" default-value="168.93421">168.93421</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1115" y="585" element-id="Tm">069</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1100" y="615" element-id="Tm">Tm</text>
+<rect rx="5" ry="5" width="70" height="70" x="1135" y="575" element-id="Yb" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1137" y="640" element-id="Yb">Ytterbium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1137" y="630" element-id="Yb" default-value="173.054">173.054</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1185" y="585" element-id="Yb">070</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1170" y="615" element-id="Yb">Yb</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="575" element-id="Lu" element-type="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="640" element-id="Lu">Lutetium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="630" element-id="Lu" default-value="174.9668">174.9668</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="585" element-id="Lu">071</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="615" element-id="Lu">Lu</text>
+<rect rx="5" ry="5" width="70" height="70" x="225" y="645" element-id="Ac" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="227" y="710" element-id="Ac">Actinium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="227" y="700" element-id="Ac" default-value="(227)">(227)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="275" y="655" element-id="Ac">089</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="260" y="685" element-id="Ac">Ac</text>
+<rect rx="5" ry="5" width="70" height="70" x="295" y="645" element-id="Th" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="297" y="710" element-id="Th">Thorium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="297" y="700" element-id="Th" default-value="232.0381">232.0381</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="345" y="655" element-id="Th">090</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="330" y="685" element-id="Th">Th</text>
+<rect rx="5" ry="5" width="70" height="70" x="365" y="645" element-id="Pa" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="367" y="710" element-id="Pa">Protactinium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="367" y="700" element-id="Pa" default-value="231.03588">231.03588</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="415" y="655" element-id="Pa">091</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="400" y="685" element-id="Pa">Pa</text>
+<rect rx="5" ry="5" width="70" height="70" x="435" y="645" element-id="U" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="437" y="710" element-id="U">Uranium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="437" y="700" element-id="U" default-value="238.02891">238.02891</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="485" y="655" element-id="U">092</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="470" y="685" element-id="U">U</text>
+<rect rx="5" ry="5" width="70" height="70" x="505" y="645" element-id="Np" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="507" y="710" element-id="Np">Neptunium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="507" y="700" element-id="Np" default-value="(237)">(237)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="555" y="655" element-id="Np">093</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="540" y="685" element-id="Np">Np</text>
+<rect rx="5" ry="5" width="70" height="70" x="575" y="645" element-id="Pu" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="577" y="710" element-id="Pu">Plutonium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="577" y="700" element-id="Pu" default-value="(244)">(244)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="625" y="655" element-id="Pu">094</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="610" y="685" element-id="Pu">Pu</text>
+<rect rx="5" ry="5" width="70" height="70" x="645" y="645" element-id="Am" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="647" y="710" element-id="Am">Americium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="647" y="700" element-id="Am" default-value="(243)">(243)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="695" y="655" element-id="Am">095</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="680" y="685" element-id="Am">Am</text>
+<rect rx="5" ry="5" width="70" height="70" x="715" y="645" element-id="Cm" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="717" y="710" element-id="Cm">Curium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="717" y="700" element-id="Cm" default-value="(247)">(247)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="765" y="655" element-id="Cm">096</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="750" y="685" element-id="Cm">Cm</text>
+<rect rx="5" ry="5" width="70" height="70" x="785" y="645" element-id="Bk" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="787" y="710" element-id="Bk">Berkelium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="787" y="700" element-id="Bk" default-value="(247)">(247)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="835" y="655" element-id="Bk">097</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="820" y="685" element-id="Bk">Bk</text>
+<rect rx="5" ry="5" width="70" height="70" x="855" y="645" element-id="Cf" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="857" y="710" element-id="Cf">Californium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="857" y="700" element-id="Cf" default-value="(251)">(251)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="905" y="655" element-id="Cf">098</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="890" y="685" element-id="Cf">Cf</text>
+<rect rx="5" ry="5" width="70" height="70" x="925" y="645" element-id="Es" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="927" y="710" element-id="Es">Einsteinium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="927" y="700" element-id="Es" default-value="(252)">(252)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="975" y="655" element-id="Es">099</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="960" y="685" element-id="Es">Es</text>
+<rect rx="5" ry="5" width="70" height="70" x="995" y="645" element-id="Fm" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="997" y="710" element-id="Fm">Fermium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="997" y="700" element-id="Fm" default-value="(257)">(257)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1045" y="655" element-id="Fm">100</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1030" y="685" element-id="Fm">Fm</text>
+<rect rx="5" ry="5" width="70" height="70" x="1065" y="645" element-id="Md" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1067" y="710" element-id="Md">Mendelevium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1067" y="700" element-id="Md" default-value="(258)">(258)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1115" y="655" element-id="Md">101</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1100" y="685" element-id="Md">Md</text>
+<rect rx="5" ry="5" width="70" height="70" x="1135" y="645" element-id="No" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1137" y="710" element-id="No">Nobelium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1137" y="700" element-id="No" default-value="(259)">(259)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1185" y="655" element-id="No">102</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1170" y="685" element-id="No">No</text>
+<rect rx="5" ry="5" width="70" height="70" x="1205" y="645" element-id="Lr" element-type="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1207" y="710" element-id="Lr">Lawrencium</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" element-text-node="true" x="1207" y="700" element-id="Lr" default-value="(262)">(262)</text>
+<text style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;" x="1255" y="655" element-id="Lr">103</text>
+<text style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;" x="1240" y="685" element-id="Lr">Lr</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="33" legend-type="default" legend-key="nonmetal" style="fill:#00EE00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00EE00"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="56" legend-type="default">Nonmetal</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="68" legend-type="default" legend-key="alkali_metal" style="fill:#FFAA00;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA00"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="91" legend-type="default">Alkali Metal</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="103" legend-type="default" legend-key="alkaline_earth_metal" style="fill:#F3F300;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#F3F300"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="126" legend-type="default">Alkaline Earth Metal</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="138" legend-type="default" legend-key="metalloid" style="fill:#55CC55;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#55CC55"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="161" legend-type="default">Metalloid</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="173" legend-type="default" legend-key="post_transition_metal" style="fill:#99BBAA;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#99BBAA"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="196" legend-type="default">Post-Transition Metal</text>
+<rect rx="5" ry="5" width="35" height="35" x="555" y="33" legend-type="default" legend-key="halogen" style="fill:#00DDBB;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#00DDBB"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="600" y="56" legend-type="default">Halogen</text>
+<rect rx="5" ry="5" width="35" height="35" x="555" y="68" legend-type="default" legend-key="noble_gases" style="fill:#66AAFF;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#66AAFF"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="600" y="91" legend-type="default">Noble Gases</text>
+<rect rx="5" ry="5" width="35" height="35" x="555" y="103" legend-type="default" legend-key="transition_metal" style="fill:#DD9999;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DD9999"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="600" y="126" legend-type="default">Transition Metal</text>
+<rect rx="5" ry="5" width="35" height="35" x="555" y="138" legend-type="default" legend-key="lanthanide" style="fill:#FFAA88;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#FFAA88"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="600" y="161" legend-type="default">Lanthanide</text>
+<rect rx="5" ry="5" width="35" height="35" x="555" y="173" legend-type="default" legend-key="actinide" style="fill:#DDAACC;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#DDAACC"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="600" y="196" legend-type="default">Actinide</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="33" legend-type="state" legend-key="solid" style="fill:#666666;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#666666"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="56" legend-type="state">Solid</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="68" legend-type="state" legend-key="liquid" style="fill:#0000DD;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#0000DD"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="91" legend-type="state">Liquid</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="103" legend-type="state" legend-key="gas" style="fill:#EE0000;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#EE0000"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="126" legend-type="state">Gas</text>
+<rect rx="5" ry="5" width="35" height="35" x="235" y="138" legend-type="state" legend-key="unknown" style="fill:#BBBBBB;stroke:black;stroke-width:2;opacity:1;cursor:pointer;" default-color="#BBBBBB"></rect>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="280" y="161" legend-type="state">Unknown</text>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="600" y="56" legend-type="state" legend-key="degK">Kelvin</text>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="600" y="91" legend-type="state" legend-key="degC">Celsius</text>
+<text text-type="label" style="font-family: helvetica; font-size: 24;fill:white;" x="600" y="126" legend-type="state" legend-key="degF">Fahrenheit</text>
+</svg>
+</div>
+</div>
+<div id="tabs-2">
+<label for="Choices">
+<h4>Select Quiz Type</h4>
+<table width="100%">
+<tr>
+<td><input id="namechoice" name="quiztype" value="name" type="radio" index="0" checked="true">&nbsp;<label for="namechoice">Name</label></td>
+</tr>
+<tr>
+<td><input id="abbrchoice" name="quiztype" value="abbreviation" type="radio" index="1">&nbsp;<label for="abbrchoice">Symbol</label></td>
+</tr>
+<tr>
+<td><input id="numberchoice" name="quiztype" value="atomicnumber" type="radio" index="2">&nbsp;<label for="numberchoice">Atomic Number</label></td>
+</tr>
+<tr>
+<td><input id="randomchoice" name="quiztype" value="random" type="radio" index="3">&nbsp;<label for="randomchoice">Random</label></td>
+</tr>
+</table>
+<br>
+<br>
+</label><input id="quiz-start" type="submit" value="Start Quiz">
+<div id="quiz-form" title="Elements Quiz">
+<div id="quiz-view" style="height:300px;">
+<svg version="1.1" baseProfile="full" viewBox="0 0 100 100" style="width: 100%; height: 75%; top: 7; margin-bottom: 20px;">
+<rect id="quiz-element" x="15" y="15" rx="5" ry="5" width="70" height="70" style="stroke:black;stroke-width:2;opacity:1;cursor:pointer;" fill="#00DDBB"></rect>
+<text id="quiz-symbol" x="50" y="55" style="font-family: helvetica; font-size: 24; text-anchor: middle;cursor:pointer;-webkit-user-select: none;">Test</text>
+<text id="quiz-number" x="65" y="25" style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;">Test</text>
+<text id="quiz-name" x="17" y="80" style="font-family: helvetica; font-size: 10;cursor:pointer;-webkit-user-select: none;">Test</text>
+</svg>
+<center>
+<span><label id="question" for="answer">Answer</label>
+<br>
+<input type="text" name="answer" id="answer" class="text ui-widget-content ui-corner-all"></span>
+</center>
+</div>
+<div id="quiz-summary" style="height:225px;margin-top:75px;"></div>
+<div id="quiz-result-details" style="display:none;overflow-y: scroll;height:300px;">
+<table id="quiz-result-table"></table>
+</div>
+<span id="quiz-percent" style="position:absolute; top:15; left:15;">test</span><span id="quiz-current" style="position:absolute; top:15; right:15;">test</span><input id="quiz-next" type="submit" style="float:right;" value="Next"><input id="quiz-close" type="submit" style="float:right;" value="Close"><input id="quiz-details" type="submit" style="float:right;" value="Details">
+</div>
+</div>
+<div id="prefs">
+<fieldset class="ui-corner-all">
+<legend>General Preferences</legend>
+<div id="general-prefs">
+<table class="column-data">
+<tr>
+<td>Theme:</td><td style="height: 36px; min-width: 502px;"><span id="general-pref-theme-dropdown"><select id="general-pref-theme-value"></select></span></td>
+</tr>
+</table>
+</div>
+</fieldset>
+<br>
+<fieldset class="ui-corner-all">
+<legend>Quiz Preferences</legend>
+<div id="quiz-prefs">
+<table class="column-data">
+<tr>
+<td>Remember Selection:</td><td align="right" style="min-width: 500px;"><span><input id="quiz-pref-remember-value" type="checkbox"><label for="quiz-pref-remember-value">On</label></span></td>
+</tr>
+<tr>
+<td id="quiz-pref-selection-lbl">Auto Selection:</td><td style="height: 36px; min-width: 502px;"><span id="quiz-pref-selection-dropdown"><select id="quiz-pref-selection-value"><option value="0">Name</option><option value="1">Symbol</option><option value="2">Atomic Number</option><option value="3">Random</option></select></span><span id="quiz-pref-selection-display" class="ui-state-default ui-default-fix" style="float: right;background: none !important;"></span></td>
+</tr>
+</table>
+</div>
+</fieldset>
+<br>
+<fieldset class="ui-corner-all">
+<legend>Unit Preferences</legend>
+<div id="unit-prefs"></div>
+</fieldset>
+</div>
+<div id="tools">
+<table width="100%" style="border-collapse: collapse;margin-left: -5px;">
+<tr>
+<td width="300px" valign="top">
+<div id="toolsmenu"></div>
+</td><td valign="top">
+<div id="toolscontent"></div>
+</td>
+</tr>
+</table>
+</div>
+<div id="about">
+<iframe src="about.html" width="90%" height="90%" style="border:none;">
+</div>
+</div>
+<div id="search-not-found" title="Element not found">
+<p>
+<span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 50px 0;"></span>
+					Could not find an element that meets your search criteria.
+				</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,3740 @@
+
+  [
+    
+		{"key": "acceleration",
+		"name": "acceleration",
+		
+		"defaults": [{"fromUnit": "mps2", "toUnit": "inchesps2", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "cmps2",
+			"name": "centimeters/second²",
+			"symbol": "cm/s²",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "damps2",
+			"name": "decameters/second²",
+			"symbol": "dam/s²",
+			"scale": "10",
+			"offset": ""}
+			,
+			{"key": "dmps2",
+			"name": "decimeters/second²",
+			"symbol": "dm/s²",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "footphs",
+			"name": "foot/hour/second",
+			"symbol": "ft/(h·s)",
+			"scale": "8.46666666666666666666667E-05",
+			"offset": ""}
+			,
+			{"key": "footpms",
+			"name": "foot/minute/second",
+			"symbol": "ft/(m·s)",
+			"scale": "0.00508",
+			"offset": ""}
+			,
+			{"key": "footps2",
+			"name": "foot/second²",
+			"symbol": "ft/s²",
+			"scale": "0.3048",
+			"offset": ""}
+			,
+			{"key": "gal",
+			"name": "galileo",
+			"symbol": "Gal",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "gravity",
+			"name": "gravity (standard)",
+			"symbol": "g",
+			"scale": "9.80665",
+			"offset": ""}
+			,
+			{"key": "hmps2",
+			"name": "hectometers/second²",
+			"symbol": "hm/s²",
+			"scale": "100",
+			"offset": ""}
+			,
+			{"key": "inchphs",
+			"name": "inch/hour/second",
+			"symbol": "in/(h·s)",
+			"scale": "7.05555555555555555555556E-06",
+			"offset": ""}
+			,
+			{"key": "inchpms",
+			"name": "inch/minute/second",
+			"symbol": "in/(m·s)",
+			"scale": "4.23333333333333333333333E-04",
+			"offset": ""}
+			,
+			{"key": "inchesps2",
+			"name": "inch/second²",
+			"symbol": "in/s²",
+			"scale": "0.0254",
+			"offset": ""}
+			,
+			{"key": "kmps2",
+			"name": "kilometers/second²",
+			"symbol": "km/s²",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "knotps",
+			"name": "knot/second",
+			"symbol": "kn/s",
+			"scale": "0.51444444444444444444444444",
+			"offset": ""}
+			,
+			{"key": "mps2",
+			"name": "meters/second²",
+			"symbol": "m/s²",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "milephs",
+			"name": "mi/hour/second",
+			"symbol": "mi/(h·s)",
+			"scale": "0.44704",
+			"offset": ""}
+			,
+			{"key": "milepms",
+			"name": "mi/minute/second",
+			"symbol": "mi/(m·s)",
+			"scale": "26.8224",
+			"offset": ""}
+			,
+			{"key": "micromps2",
+			"name": "micrometers/second²",
+			"symbol": "µm/s²",
+			"scale": "0.000001",
+			"offset": ""}
+			,
+			{"key": "mileps2",
+			"name": "mile/second²",
+			"symbol": "mile/s²",
+			"scale": "1609.344",
+			"offset": ""}
+			,
+			{"key": "mmps2",
+			"name": "millimeters/second²",
+			"symbol": "mm/s²",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "nmps2",
+			"name": "nanometers/second²",
+			"symbol": "nm/s²",
+			"scale": "0.000000001",
+			"offset": ""}
+			,
+			{"key": "yardps2",
+			"name": "yard/second²",
+			"symbol": "yard/s²",
+			"scale": "0.9144",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "angle",
+		"name": "angle",
+		
+		"defaults": [{"fromUnit": "radian", "toUnit": "deg", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "centminute",
+			"name": "centesimal minute",
+			"symbol": "'",
+			"scale": "0.00015707963267948967",
+			"offset": ""}
+			,
+			{"key": "centsecond",
+			"name": "centesimal second",
+			"symbol": "\"",
+			"scale": "0.0000015707963267948967",
+			"offset": ""}
+			,
+			{"key": "circle",
+			"name": "circle",
+			"symbol": "",
+			"scale": "6.283185307179586",
+			"offset": ""}
+			,
+			{"key": "deg",
+			"name": "degree",
+			"symbol": "°",
+			"scale": "0.017453292519943295",
+			"offset": ""}
+			,
+			{"key": "gon",
+			"name": "gon",
+			"symbol": "",
+			"scale": "0.015707963267948967",
+			"offset": ""}
+			,
+			{"key": "grad",
+			"name": "grad",
+			"symbol": "^g",
+			"scale": "0.015707963267948967",
+			"offset": ""}
+			,
+			{"key": "mil",
+			"name": "mil",
+			"symbol": "µ",
+			"scale": "0.0009817477042468104",
+			"offset": ""}
+			,
+			{"key": "minute",
+			"name": "minute",
+			"symbol": "'",
+			"scale": "0.0002908882086657216",
+			"offset": ""}
+			,
+			{"key": "octant",
+			"name": "octant",
+			"symbol": "",
+			"scale": "0.7853981633974483",
+			"offset": ""}
+			,
+			{"key": "quadrant",
+			"name": "quadrant",
+			"symbol": "",
+			"scale": "1.5707963267948966",
+			"offset": ""}
+			,
+			{"key": "radian",
+			"name": "radian",
+			"symbol": "rad",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "rev",
+			"name": "revolution",
+			"symbol": "r",
+			"scale": "6.283185307179586",
+			"offset": ""}
+			,
+			{"key": "rightangle",
+			"name": "right angle",
+			"symbol": "",
+			"scale": "1.5707963267948966",
+			"offset": ""}
+			,
+			{"key": "second",
+			"name": "second",
+			"symbol": "\"",
+			"scale": "0.00000484813681109536",
+			"offset": ""}
+			,
+			{"key": "sextant",
+			"name": "sextant",
+			"symbol": "",
+			"scale": "1.0471975511965976",
+			"offset": ""}
+			,
+			{"key": "sign",
+			"name": "sign",
+			"symbol": "",
+			"scale": "0.5235987755982988",
+			"offset": ""}
+			,
+			{"key": "turn",
+			"name": "turn",
+			"symbol": "",
+			"scale": "6.283185307179586",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "area",
+		"name": "area",
+		
+		"defaults": [{"fromUnit": "m2", "toUnit": "sqft", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "acre",
+			"name": "acre Int'l",
+			"symbol": "ac",
+			"scale": "4046.856422390079",
+			"offset": ""}
+			,
+			{"key": "are",
+			"name": "are",
+			"symbol": "a",
+			"scale": "100",
+			"offset": ""}
+			,
+			{"key": "barn",
+			"name": "barn",
+			"symbol": "b",
+			"scale": "0.0000000000000000000000000001",
+			"offset": ""}
+			,
+			{"key": "hectare",
+			"name": "hectare",
+			"symbol": "ha",
+			"scale": "10000",
+			"offset": ""}
+			,
+			{"key": "hstd",
+			"name": "homestead Int'l",
+			"symbol": "hstd",
+			"scale": "647497.027584",
+			"offset": ""}
+			,
+			{"key": "rood",
+			"name": "rood Int'l",
+			"symbol": "ro",
+			"scale": "1011.7141055975197",
+			"offset": ""}
+			,
+			{"key": "section",
+			"name": "section",
+			"symbol": "",
+			"scale": "2589988.1103296503",
+			"offset": ""}
+			,
+			{"key": "square",
+			"name": "square",
+			"symbol": "",
+			"scale": "9.290303999977224",
+			"offset": ""}
+			,
+			{"key": "cm2",
+			"name": "square centimeter",
+			"symbol": "cm²",
+			"scale": "0.0001",
+			"offset": ""}
+			,
+			{"key": "sqchain",
+			"name": "square chain Int'l",
+			"symbol": "ch²",
+			"scale": "404.68564224",
+			"offset": ""}
+			,
+			{"key": "dam2",
+			"name": "square decameter",
+			"symbol": "dam²",
+			"scale": "100",
+			"offset": ""}
+			,
+			{"key": "dm2",
+			"name": "square decimeter",
+			"symbol": "dm²",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "sqft",
+			"name": "square foot",
+			"symbol": "ft²",
+			"scale": "0.09290303999977224",
+			"offset": ""}
+			,
+			{"key": "hm2",
+			"name": "square hectometer",
+			"symbol": "hm²",
+			"scale": "10000",
+			"offset": ""}
+			,
+			{"key": "sqin",
+			"name": "square inch",
+			"symbol": "in²",
+			"scale": "0.0006451599999984183",
+			"offset": ""}
+			,
+			{"key": "km2",
+			"name": "square kilometer",
+			"symbol": "km²",
+			"scale": "1000000",
+			"offset": ""}
+			,
+			{"key": "m2",
+			"name": "square meter",
+			"symbol": "m²",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "sqmile",
+			"name": "square mile",
+			"symbol": "mile²",
+			"scale": "2589988.1103296503",
+			"offset": ""}
+			,
+			{"key": "mm2",
+			"name": "square millimeter",
+			"symbol": "mm²",
+			"scale": "0.000001",
+			"offset": ""}
+			,
+			{"key": "sqperch",
+			"name": "square perch",
+			"symbol": "perch²",
+			"scale": "25.29285264",
+			"offset": ""}
+			,
+			{"key": "sqpole",
+			"name": "square pole",
+			"symbol": "pole²",
+			"scale": "25.29285264",
+			"offset": ""}
+			,
+			{"key": "sqrod",
+			"name": "square rod",
+			"symbol": "rd²",
+			"scale": "25.29285264",
+			"offset": ""}
+			,
+			{"key": "sqyd",
+			"name": "square yard",
+			"symbol": "yd²",
+			"scale": "0.8361273599979502",
+			"offset": ""}
+			,
+			{"key": "township",
+			"name": "township",
+			"symbol": "",
+			"scale": "93239571.97186741",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "deltatemperature",
+		"name": "change in temperature",
+		
+		"defaults": [{"fromUnit": "ddegC", "toUnit": "ddegF", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "ddegC",
+			"name": "celsius",
+			"symbol": "Δ°C",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "ddegF",
+			"name": "fahrenheit",
+			"symbol": "Δ°F",
+			"scale": "0.55555555555555555555555555555555555555555",
+			"offset": ""}
+			,
+			{"key": "ddegK",
+			"name": "kelvin",
+			"symbol": "Δ°K",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "ddegR",
+			"name": "rankine",
+			"symbol": "Δ°Ra",
+			"scale": "0.55555555555555555555555555555555555555555",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "bitByte",
+		"name": "data storage",
+		
+		"defaults": [{"fromUnit": "GB", "toUnit": "MB", "sorting": "1"}],
+		  
+		"units": [
+		
+			{"key": "b",
+			"name": "bit",
+			"symbol": "b",
+			"scale": "0.00000011920928955078125",
+			"offset": ""}
+			,
+			{"key": "B",
+			"name": "byte",
+			"symbol": "B",
+			"scale": "0.00000095367431640625",
+			"offset": ""}
+			,
+			{"key": "Eb",
+			"name": "Exabit",
+			"symbol": "Eb",
+			"scale": "137438953472",
+			"offset": ""}
+			,
+			{"key": "EB",
+			"name": "Exabyte",
+			"symbol": "EB",
+			"scale": "1099511627776",
+			"offset": ""}
+			,
+			{"key": "Gb",
+			"name": "gigabit",
+			"symbol": "Gb",
+			"scale": "128",
+			"offset": ""}
+			,
+			{"key": "GB",
+			"name": "gigabyte",
+			"symbol": "GB",
+			"scale": "1024",
+			"offset": ""}
+			,
+			{"key": "Kb",
+			"name": "kilobit",
+			"symbol": "Kb",
+			"scale": "0.0001220703125",
+			"offset": ""}
+			,
+			{"key": "KB",
+			"name": "kilobyte",
+			"symbol": "KB",
+			"scale": "0.0009765625",
+			"offset": ""}
+			,
+			{"key": "Mb",
+			"name": "megabit",
+			"symbol": "Mb",
+			"scale": "0.125",
+			"offset": ""}
+			,
+			{"key": "MB",
+			"name": "megabyte",
+			"symbol": "MB",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "Pb",
+			"name": "petabit",
+			"symbol": "Pb",
+			"scale": "134217728",
+			"offset": ""}
+			,
+			{"key": "PB",
+			"name": "petabyte",
+			"symbol": "PB",
+			"scale": "1073741824",
+			"offset": ""}
+			,
+			{"key": "Tb",
+			"name": "terabit",
+			"symbol": "Tb",
+			"scale": "131072",
+			"offset": ""}
+			,
+			{"key": "TB",
+			"name": "terabyte",
+			"symbol": "TB",
+			"scale": "1048576",
+			"offset": ""}
+			,
+			{"key": "Zb",
+			"name": "Zettabit",
+			"symbol": "Zb",
+			"scale": "140737488355328",
+			"offset": ""}
+			,
+			{"key": "ZB",
+			"name": "Zettabyte",
+			"symbol": "ZB",
+			"scale": "1125899906842624",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "density",
+		"name": "density",
+		
+		"defaults": [{"fromUnit": "kgperm3", "toUnit": "ozperft3", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "gpercm3",
+			"name": "gram per centimeter³",
+			"symbol": "g/cm³",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "gperl",
+			"name": "gram per liter",
+			"symbol": "g/L",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "gperml",
+			"name": "gram per milliliter",
+			"symbol": "g/mL",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "kgpercm3",
+			"name": "kilogram per centimeter³",
+			"symbol": "kg/cm³",
+			"scale": "1000000",
+			"offset": ""}
+			,
+			{"key": "kgperl",
+			"name": "kilogram per liter",
+			"symbol": "kg/L",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "kgperm3",
+			"name": "kilogram per meter³",
+			"symbol": "kg/m³",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "kgperml",
+			"name": "kilogram per milliliter",
+			"symbol": "kg/mL",
+			"scale": "1000000",
+			"offset": ""}
+			,
+			{"key": "ozperft3",
+			"name": "ounce (avdp) per foot³",
+			"symbol": "oz/ft³",
+			"scale": "1.001153960871821",
+			"offset": ""}
+			,
+			{"key": "ozpergaluk",
+			"name": "ounce (avdp) per gallon (Imp)",
+			"symbol": "oz/gal",
+			"scale": "6.23602329144385614891038",
+			"offset": ""}
+			,
+			{"key": "ozpergalusfluid",
+			"name": "ounce (avdp) per gallon (US)",
+			"symbol": "oz/gal",
+			"scale": "7.489151707267301",
+			"offset": ""}
+			,
+			{"key": "ozperin3",
+			"name": "ounce (avdp) per inch³",
+			"symbol": "oz/in³",
+			"scale": "1729.9940443857167",
+			"offset": ""}
+			,
+			{"key": "lbperft3",
+			"name": "pound (avdp) per foot³",
+			"symbol": "lb/ft³",
+			"scale": "16.018463373945927",
+			"offset": ""}
+			,
+			{"key": "lbpergaluk",
+			"name": "pound (avdp) per gallon (Imp)",
+			"symbol": "lb/gal",
+			"scale": "99.7763726631016984",
+			"offset": ""}
+			,
+			{"key": "lbpergalusfluid",
+			"name": "pound (avdp) per gallon (US)",
+			"symbol": "lb/gal",
+			"scale": "119.82642731674346",
+			"offset": ""}
+			,
+			{"key": "lbperin3",
+			"name": "pound (avdp) per inch³",
+			"symbol": "lb/in³",
+			"scale": "27679.90471026724",
+			"offset": ""}
+			,
+			{"key": "slugperft3",
+			"name": "slug per foot³",
+			"symbol": "slug/ft³",
+			"scale": "515.378818393196203441",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "electricalconduct",
+		"name": "electrical conductivity",
+		
+		"defaults": [{"fromUnit": "sperm", "toUnit": "megasperm", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "megasperm",
+			"name": "megasiemens per meter",
+			"symbol": "MS/m",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "mhopercm",
+			"name": "mho per centimeter",
+			"symbol": "℧/cm",
+			"scale": "100",
+			"offset": ""}
+			,
+			{"key": "mhoperkm",
+			"name": "mho per kilometer",
+			"symbol": "℧/km",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "mhoperm",
+			"name": "mho per meter",
+			"symbol": "℧/m",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "spercm",
+			"name": "siemens per centimeter",
+			"symbol": "S/cm",
+			"scale": "100",
+			"offset": ""}
+			,
+			{"key": "sperdam",
+			"name": "siemens per decameter",
+			"symbol": "S/dam",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "sperdm",
+			"name": "siemens per decimeter",
+			"symbol": "S/dm",
+			"scale": "10",
+			"offset": ""}
+			,
+			{"key": "sperhm",
+			"name": "siemens per hectometer",
+			"symbol": "S/hm",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "sperkm",
+			"name": "siemens per kilometer",
+			"symbol": "S/km",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "sperm",
+			"name": "siemens per meter",
+			"symbol": "S/m",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "spermicrom",
+			"name": "siemens per micrometer",
+			"symbol": "S/µm",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "spermm",
+			"name": "siemens per millimeter",
+			"symbol": "S/mm",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "spernm",
+			"name": "siemens per nanometer",
+			"symbol": "S/nm",
+			"scale": "1E9",
+			"offset": ""}
+			,
+			{"key": "sperpm",
+			"name": "siemens per picometer",
+			"symbol": "S/pm",
+			"scale": "1E12",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "electriccharge",
+		"name": "electric charge",
+		
+		"defaults": [{"fromUnit": "c", "toUnit": "f", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "abc",
+			"name": "abcoulomb",
+			"symbol": "abC",
+			"scale": "10",
+			"offset": ""}
+			,
+			{"key": "auoc",
+			"name": "atomic unit of charge",
+			"symbol": "au",
+			"scale": "1.602176462E-19",
+			"offset": ""}
+			,
+			{"key": "c",
+			"name": "coulomb",
+			"symbol": "C",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "emu",
+			"name": "electromagnetic unit",
+			"symbol": "emu",
+			"scale": "10",
+			"offset": ""}
+			,
+			{"key": "esu",
+			"name": "electrostatic unit",
+			"symbol": "esu",
+			"scale": "3.335641E-10",
+			"offset": ""}
+			,
+			{"key": "f",
+			"name": "faraday",
+			"symbol": "F",
+			"scale": "96485.3383",
+			"offset": ""}
+			,
+			{"key": "fr",
+			"name": "ranklin",
+			"symbol": "Fr",
+			"scale": "3.335641E-10",
+			"offset": ""}
+			,
+			{"key": "statc",
+			"name": "statcoulomb",
+			"symbol": "statC",
+			"scale": "3.335641E-10",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "electriccurrent",
+		"name": "electric current",
+		
+		"defaults": [{"fromUnit": "a", "toUnit": "esups", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "abamp",
+			"name": "abampere",
+			"symbol": "abamp",
+			"scale": "10",
+			"offset": ""}
+			,
+			{"key": "a",
+			"name": "ampere",
+			"symbol": "A",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "electromagnetic",
+			"name": "electromagnetic unit",
+			"symbol": "",
+			"scale": "10",
+			"offset": ""}
+			,
+			{"key": "esups",
+			"name": "esu per second",
+			"symbol": "esu/s",
+			"scale": "3.33564095198E-10",
+			"offset": ""}
+			,
+			{"key": "statampere",
+			"name": "statampere",
+			"symbol": "",
+			"scale": "3.33564095198E-10",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "electricdipole",
+		"name": "electric dipole",
+		
+		"defaults": [{"fromUnit": "coulombm", "toUnit": "ea0", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "ea0",
+			"name": "atomic unit of electric dipole moment",
+			"symbol": "ea0",
+			"scale": "8.4783528105919E-30",
+			"offset": ""}
+			,
+			{"key": "coulombm",
+			"name": "coulomb meter",
+			"symbol": "C·m",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "debye",
+			"name": "debye",
+			"symbol": "D",
+			"scale": "3.33564095E-30",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "electricpd",
+		"name": "electric potential difference",
+		
+		"defaults": [{"fromUnit": "v", "toUnit": "statv", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "abv",
+			"name": "abvolt",
+			"symbol": "abV",
+			"scale": "1E-8",
+			"offset": ""}
+			,
+			{"key": "statv",
+			"name": "statvolt",
+			"symbol": "statV",
+			"scale": "299.792458",
+			"offset": ""}
+			,
+			{"key": "v",
+			"name": "volt",
+			"symbol": "v",
+			"scale": "1",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "energy",
+		"name": "energy",
+		
+		"defaults": [{"fromUnit": "J", "toUnit": "btuiso", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "auofe",
+			"name": "atomic unit of energy",
+			"symbol": "",
+			"scale": "4.359744E-18",
+			"offset": ""}
+			,
+			{"key": "botu",
+			"name": "Board of Trade Unit",
+			"symbol": "BOTU",
+			"scale": "3.6E6",
+			"offset": ""}
+			,
+			{"key": "btuiso",
+			"name": "british thermal unit ISO",
+			"symbol": "BTU ISO",
+			"scale": "1.0545E3",
+			"offset": ""}
+			,
+			{"key": "btuIT",
+			"name": "british thermal unit IT",
+			"symbol": "BTU IT",
+			"scale": "1.05505585262E3",
+			"offset": ""}
+			,
+			{"key": "btuMean",
+			"name": "british thermal unit mean",
+			"symbol": "BTU mean",
+			"scale": "1.05587E3",
+			"offset": ""}
+			,
+			{"key": "btuTH",
+			"name": "british thermal unit TH",
+			"symbol": "BTU TH",
+			"scale": "1.054350E3",
+			"offset": ""}
+			,
+			{"key": "calorieIT",
+			"name": "calorie IT",
+			"symbol": "calorie IT",
+			"scale": "4.1868",
+			"offset": ""}
+			,
+			{"key": "calorieMean",
+			"name": "calorie mean",
+			"symbol": "calorie mean",
+			"scale": "4.19002",
+			"offset": ""}
+			,
+			{"key": "calorieTH",
+			"name": "calorie TH",
+			"symbol": "calorie TH",
+			"scale": "4.184",
+			"offset": ""}
+			,
+			{"key": "chuit",
+			"name": "celsius heat unit IT",
+			"symbol": "chu IT",
+			"scale": "1.899100534716E3",
+			"offset": ""}
+			,
+			{"key": "ccatm",
+			"name": "cubic centimeter of atmosphere",
+			"symbol": "cc atm",
+			"scale": "0.101325",
+			"offset": ""}
+			,
+			{"key": "cuftatm",
+			"name": "cubic foot of atmosphere",
+			"symbol": "cu ft atm",
+			"scale": "2.8692044809344E3",
+			"offset": ""}
+			,
+			{"key": "cfofng",
+			"name": "cubic foot of natural gas",
+			"symbol": "",
+			"scale": "1.05505585262E6",
+			"offset": ""}
+			,
+			{"key": "cuydatm",
+			"name": "cubic yard of atmosphere",
+			"symbol": "cu yd atm",
+			"scale": "77.4685209852288E3",
+			"offset": ""}
+			,
+			{"key": "ev",
+			"name": "electronvolt",
+			"symbol": "eV",
+			"scale": "1.60217733E-19",
+			"offset": ""}
+			,
+			{"key": "erg",
+			"name": "erg",
+			"symbol": "erg",
+			"scale": "1E-7",
+			"offset": ""}
+			,
+			{"key": "ftpdl",
+			"name": "foot-poundal",
+			"symbol": "ft pdl",
+			"scale": "4.21401100938048E-2",
+			"offset": ""}
+			,
+			{"key": "ftlbf",
+			"name": "foot-pound force",
+			"symbol": "ft lbf",
+			"scale": "1.3558179483314004",
+			"offset": ""}
+			,
+			{"key": "impgalatm",
+			"name": "gallon-atmosphere",
+			"symbol": "imp gal atm",
+			"scale": "460.63256925",
+			"offset": ""}
+			,
+			{"key": "usgalatm",
+			"name": "gallon-atmosphere",
+			"symbol": "US gal atm",
+			"scale": "383.5568490138",
+			"offset": ""}
+			,
+			{"key": "hartree",
+			"name": "hartree",
+			"symbol": "",
+			"scale": "4.359744E-18",
+			"offset": ""}
+			,
+			{"key": "hph",
+			"name": "horsepower-hour",
+			"symbol": "hp·h",
+			"scale": "2.684519537696172792E6",
+			"offset": ""}
+			,
+			{"key": "inlbf",
+			"name": "inch-pound force",
+			"symbol": "in lbf",
+			"scale": "0.1129848290276167",
+			"offset": ""}
+			,
+			{"key": "J",
+			"name": "Joule",
+			"symbol": "J",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "kcal",
+			"name": "kilocalorie",
+			"symbol": "kcal",
+			"scale": "4.1868E3",
+			"offset": ""}
+			,
+			{"key": "KJ",
+			"name": "Kilojoule",
+			"symbol": "KJ",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "kwh",
+			"name": "kilowatt-hour",
+			"symbol": "kW·h",
+			"scale": "3.6E6",
+			"offset": ""}
+			,
+			{"key": "largecal",
+			"name": "large calorie",
+			"symbol": "Cal",
+			"scale": "4.1868E3",
+			"offset": ""}
+			,
+			{"key": "latm",
+			"name": "litre-atmosphere",
+			"symbol": "l atm",
+			"scale": "101.325",
+			"offset": ""}
+			,
+			{"key": "quad",
+			"name": "quad",
+			"symbol": "",
+			"scale": "1.05505585262E18",
+			"offset": ""}
+			,
+			{"key": "ry",
+			"name": "rydberg",
+			"symbol": "Ry",
+			"scale": "2.179872E-18",
+			"offset": ""}
+			,
+			{"key": "sccatm",
+			"name": "standard cubic centimeter",
+			"symbol": "scc",
+			"scale": "0.101325",
+			"offset": ""}
+			,
+			{"key": "scf",
+			"name": "standard cubic foot",
+			"symbol": "scf",
+			"scale": "2.8692044809344E3",
+			"offset": ""}
+			,
+			{"key": "scy",
+			"name": "standard cubic yard",
+			"symbol": "scy",
+			"scale": "77.4685209852288E3",
+			"offset": ""}
+			,
+			{"key": "thermus",
+			"name": "therm (US)",
+			"symbol": "",
+			"scale": "105.4804E6",
+			"offset": ""}
+			,
+			{"key": "thermec",
+			"name": "therm EC",
+			"symbol": "",
+			"scale": "105.505585262E6",
+			"offset": ""}
+			,
+			{"key": "thermie",
+			"name": "thermie",
+			"symbol": "th",
+			"scale": "4.1868E6",
+			"offset": ""}
+			,
+			{"key": "tce",
+			"name": "ton of coal equivalent",
+			"symbol": "TCE",
+			"scale": "29.3076E9",
+			"offset": ""}
+			,
+			{"key": "toe",
+			"name": "ton of oil equivalent",
+			"symbol": "TOE",
+			"scale": "41.868E9",
+			"offset": ""}
+			,
+			{"key": "tTNT",
+			"name": "ton of TNT",
+			"symbol": "tTNT",
+			"scale": "4.184E9",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "flowvol",
+		"name": "flow (volume)",
+		
+		"defaults": [{"fromUnit": "m3pers", "toUnit": "cfpermin", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "cm3perm",
+			"name": "centimeter³ per minute",
+			"symbol": "cm³/m",
+			"scale": "1.666666666666666666666667E-8",
+			"offset": ""}
+			,
+			{"key": "cm3pers",
+			"name": "centimeter³ per second",
+			"symbol": "cm³/s",
+			"scale": "0.000001",
+			"offset": ""}
+			,
+			{"key": "dam3perm",
+			"name": "decameter³ per minute",
+			"symbol": "dam³/m",
+			"scale": "1.666666666666666666666667E1",
+			"offset": ""}
+			,
+			{"key": "dam3pers",
+			"name": "decameter³ per second",
+			"symbol": "dam³/s",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "dm3perm",
+			"name": "decimeter³ per minute",
+			"symbol": "dm³/m",
+			"scale": "1.666666666666666666666667E-5",
+			"offset": ""}
+			,
+			{"key": "dm3pers",
+			"name": "decimeter³ per second",
+			"symbol": "dm³/s",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "cfpermin",
+			"name": "foot³ per minute",
+			"symbol": "CFM",
+			"scale": "4.719474432E-4",
+			"offset": ""}
+			,
+			{"key": "ft3pers",
+			"name": "foot³ per second",
+			"symbol": "ft³/s",
+			"scale": "0.028316846592",
+			"offset": ""}
+			,
+			{"key": "galperday",
+			"name": "gallon (US fluid) per day",
+			"symbol": "GPD",
+			"scale": "4.381263638888888888E-8",
+			"offset": ""}
+			,
+			{"key": "galperhour",
+			"name": "gallon (US fluid) per hour",
+			"symbol": "GPH",
+			"scale": "1.051503273333333333E-6",
+			"offset": ""}
+			,
+			{"key": "galpermin",
+			"name": "gallon (US fluid) per minute",
+			"symbol": "GPM",
+			"scale": "6.30901964E-5",
+			"offset": ""}
+			,
+			{"key": "hm3perm",
+			"name": "hectometer³ per minute",
+			"symbol": "hm³/m",
+			"scale": "1.666666666666666666666667E4",
+			"offset": ""}
+			,
+			{"key": "hm3pers",
+			"name": "hectometer³ per second",
+			"symbol": "hm³/s",
+			"scale": "1000000",
+			"offset": ""}
+			,
+			{"key": "in3permin",
+			"name": "inch³ per minute",
+			"symbol": "in³/m",
+			"scale": "2.7311773333333333E-7",
+			"offset": ""}
+			,
+			{"key": "in3pers",
+			"name": "inch³ per second",
+			"symbol": "in³/s",
+			"scale": "1.6387064E-5",
+			"offset": ""}
+			,
+			{"key": "km3perm",
+			"name": "kilometer³ per minute",
+			"symbol": "km³/m",
+			"scale": "1.666666666666666666666667E7",
+			"offset": ""}
+			,
+			{"key": "km3pers",
+			"name": "kilometer³ per second",
+			"symbol": "km³/s",
+			"scale": "1000000000",
+			"offset": ""}
+			,
+			{"key": "lpermin",
+			"name": "litre per minute",
+			"symbol": "LPM",
+			"scale": "1.66666666666666667E-5",
+			"offset": ""}
+			,
+			{"key": "m3perm",
+			"name": "meter³ per minute",
+			"symbol": "m³/m",
+			"scale": "1.666666666666666666666667E-2",
+			"offset": ""}
+			,
+			{"key": "m3pers",
+			"name": "meter³ per second",
+			"symbol": "m³/s",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "mm3perm",
+			"name": "millimeter³ per minute",
+			"symbol": "mm³/m",
+			"scale": "1.666666666666666666666667E-11",
+			"offset": ""}
+			,
+			{"key": "mm3pers",
+			"name": "millimeter³ per second",
+			"symbol": "mm³/s",
+			"scale": "0.000000001",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "force",
+		"name": "force",
+		
+		"defaults": [{"fromUnit": "newton", "toUnit": "lbforce", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "auof",
+			"name": "atomic unit of force",
+			"symbol": "",
+			"scale": "8.23872206E-8",
+			"offset": ""}
+			,
+			{"key": "dyne",
+			"name": "dyne",
+			"symbol": "dyn",
+			"scale": "1E-5",
+			"offset": ""}
+			,
+			{"key": "gf",
+			"name": "grave-force",
+			"symbol": "Gf",
+			"scale": "9.80665",
+			"offset": ""}
+			,
+			{"key": "gravetforce",
+			"name": "gravet-force",
+			"symbol": "gf",
+			"scale": "0.00980665",
+			"offset": ""}
+			,
+			{"key": "kgforce",
+			"name": "kilogram-force",
+			"symbol": "kgf",
+			"scale": "9.80665",
+			"offset": ""}
+			,
+			{"key": "kp",
+			"name": "kilopond",
+			"symbol": "kp",
+			"scale": "9.80665",
+			"offset": ""}
+			,
+			{"key": "kipf",
+			"name": "kip",
+			"symbol": "kip",
+			"scale": "4.4482216152605E3",
+			"offset": ""}
+			,
+			{"key": "kipforce",
+			"name": "kip-force",
+			"symbol": "kipf",
+			"scale": "4.4482216152605E3",
+			"offset": ""}
+			,
+			{"key": "milligraveforce",
+			"name": "milligrave-force",
+			"symbol": "mGf",
+			"scale": "0.00980665",
+			"offset": ""}
+			,
+			{"key": "newton",
+			"name": "newton",
+			"symbol": "N",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "ozforce",
+			"name": "ounce-force",
+			"symbol": "ozf",
+			"scale": "0.2780138509537812",
+			"offset": ""}
+			,
+			{"key": "lb",
+			"name": "pound",
+			"symbol": "lb",
+			"scale": "4.448230531",
+			"offset": ""}
+			,
+			{"key": "poundal",
+			"name": "poundal",
+			"symbol": "pdl",
+			"scale": "0.138254954376",
+			"offset": ""}
+			,
+			{"key": "lbforce",
+			"name": "pound-force",
+			"symbol": "lbf",
+			"scale": "4.4482216152605",
+			"offset": ""}
+			,
+			{"key": "sthene",
+			"name": "sthene",
+			"symbol": "sn",
+			"scale": "1E3",
+			"offset": ""}
+			,
+			{"key": "tonforce",
+			"name": "ton-force",
+			"symbol": "tnf",
+			"scale": "8.896443230521E3",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "frequency",
+		"name": "frequency",
+		
+		"defaults": [{"fromUnit": "hertz", "toUnit": "khertz", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "ehertz",
+			"name": "exahertz",
+			"symbol": "EHz",
+			"scale": "1E18",
+			"offset": ""}
+			,
+			{"key": "ghertz",
+			"name": "gigahertz",
+			"symbol": "GHz",
+			"scale": "1E9",
+			"offset": ""}
+			,
+			{"key": "hertz",
+			"name": "hertz",
+			"symbol": "Hz",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "khertz",
+			"name": "kilohertz",
+			"symbol": "KHz",
+			"scale": "1E3",
+			"offset": ""}
+			,
+			{"key": "mhertz",
+			"name": "megahertz",
+			"symbol": "MHz",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "phertz",
+			"name": "petahertz",
+			"symbol": "PHz",
+			"scale": "1E15",
+			"offset": ""}
+			,
+			{"key": "thertz",
+			"name": "terahertz",
+			"symbol": "THz",
+			"scale": "1E12",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "fuelconsumption",
+		"name": "fuel consumption",
+		
+		"defaults": [{"fromUnit": "kilometerperliter", "toUnit": "mpergallonus", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "centimeterperliter",
+			"name": "centimeter/liter",
+			"symbol": "cm/L",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "kmpergallonus",
+			"name": "kilometer/gallon (US)",
+			"symbol": "km/gal(US)",
+			"scale": "264.17203728418465414068534679977",
+			"offset": ""}
+			,
+			{"key": "kilometerperliter",
+			"name": "kilometer/liter",
+			"symbol": "km/L",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "meterpercubiccentimeter",
+			"name": "meter/centimeter³",
+			"symbol": "m/cm³",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "mpercubicfoot",
+			"name": "meter/ft³",
+			"symbol": "m/ft³",
+			"scale": "0.035314666721488590250438010354",
+			"offset": ""}
+			,
+			{"key": "mpergallonimp",
+			"name": "meter/gallon (Imp)",
+			"symbol": "m/gal(Imp)",
+			"scale": "0.21996924829908778752730368294512",
+			"offset": ""}
+			,
+			{"key": "mpergallonus",
+			"name": "meter/gallon (US)",
+			"symbol": "m/gal(US)",
+			"scale": "0.26417205235814841537989992160916",
+			"offset": ""}
+			,
+			{"key": "mpercubicinch",
+			"name": "meter/in³",
+			"symbol": "m/in³",
+			"scale": "61.023744094732283952756881891717",
+			"offset": ""}
+			,
+			{"key": "meterperliter",
+			"name": "meter/liter",
+			"symbol": "m/L",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "meterpercubicmeter",
+			"name": "meter/meter³",
+			"symbol": "m/m³",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "mpercubicyard",
+			"name": "meter/yd³",
+			"symbol": "m/yd³",
+			"scale": "0.00130795061931439223149770408719",
+			"offset": ""}
+			,
+			{"key": "mipergallonimp",
+			"name": "mile/gallon (Imp)",
+			"symbol": "mi/gal(Imp)",
+			"scale": "354.00618993464713633034101832563",
+			"offset": ""}
+			,
+			{"key": "mipergallonus",
+			"name": "mile/gallon (US)",
+			"symbol": "mi/gal(US)",
+			"scale": "425.14370743027200340114965944217",
+			"offset": ""}
+			,
+			{"key": "mileperliter",
+			"name": "mile/liter",
+			"symbol": "mi/L",
+			"scale": "1609.344",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "illuminance",
+		"name": "illuminance",
+		
+		"defaults": [{"fromUnit": "lx", "toUnit": "lmpin2", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "fc",
+			"name": "footcandle",
+			"symbol": "fc",
+			"scale": "10.763910417",
+			"offset": ""}
+			,
+			{"key": "lmpft2",
+			"name": "lumen per square foot",
+			"symbol": "lm/ft²",
+			"scale": "10.763910417",
+			"offset": ""}
+			,
+			{"key": "lmpin2",
+			"name": "lumen per square inch",
+			"symbol": "lm/in²",
+			"scale": "1550.003100048",
+			"offset": ""}
+			,
+			{"key": "lx",
+			"name": "lux",
+			"symbol": "lx",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "ph",
+			"name": "phot",
+			"symbol": "ph",
+			"scale": "1E4",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "length",
+		"name": "length / distance",
+		
+		"defaults": [{"fromUnit": "m", "toUnit": "ftint", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "angstrom",
+			"name": "ångström",
+			"symbol": "Å",
+			"scale": "1E-10",
+			"offset": ""}
+			,
+			{"key": "au",
+			"name": "astronomical unit",
+			"symbol": "AU",
+			"scale": "149597871464",
+			"offset": ""}
+			,
+			{"key": "cm",
+			"name": "centimeter",
+			"symbol": "cm",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "chain",
+			"name": "chain",
+			"symbol": "ch",
+			"scale": "20.1168",
+			"offset": ""}
+			,
+			{"key": "dam",
+			"name": "decameter",
+			"symbol": "dam",
+			"scale": "10",
+			"offset": ""}
+			,
+			{"key": "dm",
+			"name": "decimeter",
+			"symbol": "dm",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "ell",
+			"name": "ell",
+			"symbol": "ell",
+			"scale": "1.143",
+			"offset": ""}
+			,
+			{"key": "fathom",
+			"name": "fathom",
+			"symbol": "fath",
+			"scale": "1.8288",
+			"offset": ""}
+			,
+			{"key": "fermi",
+			"name": "fermi",
+			"symbol": "fm",
+			"scale": "1E-15",
+			"offset": ""}
+			,
+			{"key": "ftint",
+			"name": "foot",
+			"symbol": "ft",
+			"scale": "0.3048",
+			"offset": ""}
+			,
+			{"key": "furlong",
+			"name": "furlong",
+			"symbol": "fur",
+			"scale": "201.168",
+			"offset": ""}
+			,
+			{"key": "hand",
+			"name": "hand",
+			"symbol": "",
+			"scale": "0.1016",
+			"offset": ""}
+			,
+			{"key": "hm",
+			"name": "hectometer",
+			"symbol": "hm",
+			"scale": "100",
+			"offset": ""}
+			,
+			{"key": "inint",
+			"name": "inch",
+			"symbol": "in",
+			"scale": "0.0254",
+			"offset": ""}
+			,
+			{"key": "km",
+			"name": "kilometer",
+			"symbol": "km",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "league",
+			"name": "league land",
+			"symbol": "lea",
+			"scale": "4828.032",
+			"offset": ""}
+			,
+			{"key": "link",
+			"name": "link surveyor's",
+			"symbol": "li",
+			"scale": "0.201168",
+			"offset": ""}
+			,
+			{"key": "m",
+			"name": "meter",
+			"symbol": "m",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "microm",
+			"name": "micrometer",
+			"symbol": "µm",
+			"scale": "0.000001",
+			"offset": ""}
+			,
+			{"key": "micron",
+			"name": "micron",
+			"symbol": "µm",
+			"scale": "1E-6",
+			"offset": ""}
+			,
+			{"key": "milthou",
+			"name": "mil",
+			"symbol": "mil",
+			"scale": "0.0000254",
+			"offset": ""}
+			,
+			{"key": "mileint",
+			"name": "mile",
+			"symbol": "mi",
+			"scale": "1609.344",
+			"offset": ""}
+			,
+			{"key": "mm",
+			"name": "millimeter",
+			"symbol": "mm",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "nm",
+			"name": "nanometer",
+			"symbol": "nm",
+			"scale": "0.000000001",
+			"offset": ""}
+			,
+			{"key": "nautmileadm",
+			"name": "nautical mile admiralty",
+			"symbol": "NM (Adm)",
+			"scale": "1853.184",
+			"offset": ""}
+			,
+			{"key": "nautmileint",
+			"name": "nautical mile Int",
+			"symbol": "NM",
+			"scale": "1852",
+			"offset": ""}
+			,
+			{"key": "pm",
+			"name": "picometer",
+			"symbol": "pm",
+			"scale": "0.000000000001",
+			"offset": ""}
+			,
+			{"key": "rod",
+			"name": "rod",
+			"symbol": "rd",
+			"scale": "5.0292",
+			"offset": ""}
+			,
+			{"key": "rope",
+			"name": "rope",
+			"symbol": "",
+			"scale": "6.096",
+			"offset": ""}
+			,
+			{"key": "ydint",
+			"name": "yard",
+			"symbol": "yd",
+			"scale": "0.9144",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "luminance",
+		"name": "luminance",
+		
+		"defaults": [{"fromUnit": "cdpm2", "toUnit": "cdpin2", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "cdpcm2",
+			"name": "candela per square centimeter",
+			"symbol": "cd/cm²",
+			"scale": "1E4",
+			"offset": ""}
+			,
+			{"key": "cdpft2",
+			"name": "candela per square foot",
+			"symbol": "cd/ft²",
+			"scale": "10.763910417",
+			"offset": ""}
+			,
+			{"key": "cdpin2",
+			"name": "candela per square inch",
+			"symbol": "cd/in²",
+			"scale": "1550.003100048",
+			"offset": ""}
+			,
+			{"key": "cdpm2",
+			"name": "candela per square meter",
+			"symbol": "cd/m²",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "cdpmm2",
+			"name": "candela per square millimeter",
+			"symbol": "cd/mm²",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "fl",
+			"name": "footlambert",
+			"symbol": "fL",
+			"scale": "3.4262590996",
+			"offset": ""}
+			,
+			{"key": "l",
+			"name": "lambert",
+			"symbol": "L",
+			"scale": "3183.0988618",
+			"offset": ""}
+			,
+			{"key": "sb",
+			"name": "stilb",
+			"symbol": "sb",
+			"scale": "1E4",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "luminousintensity",
+		"name": "luminous intensity",
+		
+		"defaults": [{"fromUnit": "candle", "toUnit": "cpold", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "candela",
+			"name": "candela",
+			"symbol": "cd",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "candle",
+			"name": "candle",
+			"symbol": "cd",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "cpnew",
+			"name": "candlepower",
+			"symbol": "cp",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "cpold",
+			"name": "candlepower pre-1948",
+			"symbol": "cp",
+			"scale": "0.981",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "magneticflux",
+		"name": "magnetic flux",
+		
+		"defaults": [{"fromUnit": "wb", "toUnit": "mx", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "mx",
+			"name": "maxwell",
+			"symbol": "Mx",
+			"scale": "1E-8",
+			"offset": ""}
+			,
+			{"key": "wb",
+			"name": "weber",
+			"symbol": "Wb",
+			"scale": "1",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "magneticfluxdensity",
+		"name": "magnetic flux density",
+		
+		"defaults": [{"fromUnit": "t", "toUnit": "gauss", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "gauss",
+			"name": "gauss",
+			"symbol": "G",
+			"scale": "1E-4",
+			"offset": ""}
+			,
+			{"key": "mxpcm2",
+			"name": "maxwell / centermeter²",
+			"symbol": "Mx/cm²",
+			"scale": "1E-4",
+			"offset": ""}
+			,
+			{"key": "t",
+			"name": "tesla",
+			"symbol": "T",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "wbpm2",
+			"name": "webber / meter²",
+			"symbol": "Wb/m²",
+			"scale": "1",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "molenergy",
+		"name": "molar energy",
+		
+		"defaults": [{"fromUnit": "molJ", "toUnit": "molbtuiso", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "molbtuiso",
+			"name": "british thermal unit ISO/mole",
+			"symbol": "BTU ISO/mol",
+			"scale": "1.0545E3",
+			"offset": ""}
+			,
+			{"key": "molbtuIT",
+			"name": "british thermal unit IT/mole",
+			"symbol": "BTU IT/mol",
+			"scale": "1.05505585262E3",
+			"offset": ""}
+			,
+			{"key": "molbtuMean",
+			"name": "british thermal unit mean/mole",
+			"symbol": "BTU mean/mol",
+			"scale": "1.05587E3",
+			"offset": ""}
+			,
+			{"key": "molbtuTH",
+			"name": "british thermal unit TH/mole",
+			"symbol": "BTU TH/mol",
+			"scale": "1.054350E3",
+			"offset": ""}
+			,
+			{"key": "molev",
+			"name": "electronvolt/mole",
+			"symbol": "eV/mol",
+			"scale": "1.60217733E-19",
+			"offset": ""}
+			,
+			{"key": "molJ",
+			"name": "Joule/mole",
+			"symbol": "J/mol",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "molKJ",
+			"name": "kilojoule/mole",
+			"symbol": "kJ/mol",
+			"scale": "1000",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "molheatcap",
+		"name": "molar heat capacity",
+		
+		"defaults": [{"fromUnit": "jpermolk", "toUnit": "calpermolk", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "calpermolk",
+			"name": "calorie TH per mole kelvin",
+			"symbol": "cal/(mol⋅K)",
+			"scale": "4.184",
+			"offset": ""}
+			,
+			{"key": "jpermolk",
+			"name": "joule per mole kelvin",
+			"symbol": "J/(mol·K)",
+			"scale": "1",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "molmass",
+		"name": "molar mass",
+		
+		"defaults": [{"fromUnit": "kgpmol", "toUnit": "gpmol", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "amupmol",
+			"name": "automic mass unit",
+			"symbol": "u",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "cgpmol",
+			"name": "centigram/mole",
+			"symbol": "cg/mol",
+			"scale": "0.00001",
+			"offset": ""}
+			,
+			{"key": "dapmol",
+			"name": "dalton",
+			"symbol": "Da",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "dagpmol",
+			"name": "decagram/mole",
+			"symbol": "dag/mol",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "dgpmol",
+			"name": "decigram/mole",
+			"symbol": "dg/mol",
+			"scale": "0.0001",
+			"offset": ""}
+			,
+			{"key": "Ggpmol",
+			"name": "gigagrams/mole",
+			"symbol": "Gg/mol",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "gpmol",
+			"name": "gram/mole",
+			"symbol": "g/mol",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "hgpmol",
+			"name": "hectogram/mole",
+			"symbol": "hg/mol",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "kgpmol",
+			"name": "kilograms/mole",
+			"symbol": "kg/mol",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "Mgpmol",
+			"name": "megagrams/mole",
+			"symbol": "Mg/mol",
+			"scale": "1E3",
+			"offset": ""}
+			,
+			{"key": "ugpmol",
+			"name": "microgram/mole",
+			"symbol": "µg/mol",
+			"scale": "1E-9",
+			"offset": ""}
+			,
+			{"key": "mgpmol",
+			"name": "milligram/mole",
+			"symbol": "mg/mol",
+			"scale": "0.000001",
+			"offset": ""}
+			,
+			{"key": "ngpmol",
+			"name": "nanogram/mole",
+			"symbol": "ng/mol",
+			"scale": "1E-12",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "power",
+		"name": "power / heat flow rate",
+		
+		"defaults": [{"fromUnit": "w", "toUnit": "btupm", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "atmccm",
+			"name": "atmosphere-cubic centimeter per minute",
+			"symbol": "atm ccm",
+			"scale": "1.68875E-3",
+			"offset": ""}
+			,
+			{"key": "atmccs",
+			"name": "atmosphere-cubic centimeter per second",
+			"symbol": "atm ccs",
+			"scale": "0.101325",
+			"offset": ""}
+			,
+			{"key": "atmcfh",
+			"name": "atmosphere-cubic foot per hour",
+			"symbol": "atm cfh",
+			"scale": "0.797001244704",
+			"offset": ""}
+			,
+			{"key": "atmcfm",
+			"name": "atmosphere-cubic foot per minute",
+			"symbol": "atm·cfm",
+			"scale": "47.82007468224",
+			"offset": ""}
+			,
+			{"key": "atmcfs",
+			"name": "atmosphere-cubic foot per second",
+			"symbol": "atm cfs",
+			"scale": "2.8692044809344E3",
+			"offset": ""}
+			,
+			{"key": "btuph",
+			"name": "BTU (IT) per hour",
+			"symbol": "BTU/hour",
+			"scale": "0.293071",
+			"offset": ""}
+			,
+			{"key": "btupm",
+			"name": "BTU (IT) per minute",
+			"symbol": "BTU/min",
+			"scale": "17.584264",
+			"offset": ""}
+			,
+			{"key": "btups",
+			"name": "BTU (IT) per second",
+			"symbol": "BTU/sec",
+			"scale": "1.05505585262E3",
+			"offset": ""}
+			,
+			{"key": "calps",
+			"name": "calorie (IT) per second",
+			"symbol": "cal/sec",
+			"scale": "4.1868",
+			"offset": ""}
+			,
+			{"key": "ftlbfph",
+			"name": "foot-pound-force per hour",
+			"symbol": "ft lbf/h",
+			"scale": "3.766161E-4",
+			"offset": ""}
+			,
+			{"key": "ftlbfpmin",
+			"name": "foot-pound-force per minute",
+			"symbol": "ft lbf/min",
+			"scale": "2.259696580552334E-2",
+			"offset": ""}
+			,
+			{"key": "ftlbfps",
+			"name": "foot-pound-force per second",
+			"symbol": "ft lbf/s",
+			"scale": "1.3558179483314004",
+			"offset": ""}
+			,
+			{"key": "gw",
+			"name": "gigawatt",
+			"symbol": "GW",
+			"scale": "1E9",
+			"offset": ""}
+			,
+			{"key": "hpie",
+			"name": "horsepower (Imp) electrical",
+			"symbol": "hp",
+			"scale": "746",
+			"offset": ""}
+			,
+			{"key": "hpim",
+			"name": "horsepower (Imp) mechanical",
+			"symbol": "hp",
+			"scale": "745.69987158227022",
+			"offset": ""}
+			,
+			{"key": "hpm",
+			"name": "horsepower (metric)",
+			"symbol": "hp",
+			"scale": "735.498",
+			"offset": ""}
+			,
+			{"key": "bhp",
+			"name": "horsepower boiler",
+			"symbol": "bhp",
+			"scale": "9.810657E3",
+			"offset": ""}
+			,
+			{"key": "hpee",
+			"name": "horsepower european electrical",
+			"symbol": "hp",
+			"scale": "736",
+			"offset": ""}
+			,
+			{"key": "kw",
+			"name": "kilowatt",
+			"symbol": "kW",
+			"scale": "1E3",
+			"offset": ""}
+			,
+			{"key": "latmpmin",
+			"name": "litre-atmosphere per minute",
+			"symbol": "L·atm/min",
+			"scale": "1.68875",
+			"offset": ""}
+			,
+			{"key": "latmps",
+			"name": "litre-atmosphere per second",
+			"symbol": "L·atm/s",
+			"scale": "101.325",
+			"offset": ""}
+			,
+			{"key": "lusec",
+			"name": "lusec",
+			"symbol": "lusec",
+			"scale": "1.333E-4",
+			"offset": ""}
+			,
+			{"key": "megaw",
+			"name": "megawatt",
+			"symbol": "MW",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "uw",
+			"name": "microwatt",
+			"symbol": "µW",
+			"scale": "1E-6",
+			"offset": ""}
+			,
+			{"key": "mw",
+			"name": "milliwatt",
+			"symbol": "mW",
+			"scale": "1E-3",
+			"offset": ""}
+			,
+			{"key": "nw",
+			"name": "nanowatt",
+			"symbol": "nW",
+			"scale": "1E-9",
+			"offset": ""}
+			,
+			{"key": "pw",
+			"name": "petawatt",
+			"symbol": "PW",
+			"scale": "1E15",
+			"offset": ""}
+			,
+			{"key": "poncelet",
+			"name": "poncelet",
+			"symbol": "p",
+			"scale": "980.665",
+			"offset": ""}
+			,
+			{"key": "sqftedr",
+			"name": "square foot equivalent direct radiation",
+			"symbol": "sq ft EDR",
+			"scale": "70.337057",
+			"offset": ""}
+			,
+			{"key": "tw",
+			"name": "terawatt",
+			"symbol": "TW",
+			"scale": "1E12",
+			"offset": ""}
+			,
+			{"key": "tonoaircond",
+			"name": "ton of air conditioning",
+			"symbol": "",
+			"scale": "3504",
+			"offset": ""}
+			,
+			{"key": "tonofrefrigimp",
+			"name": "ton of refrigeration (Imp)",
+			"symbol": "",
+			"scale": "3.938875E3",
+			"offset": ""}
+			,
+			{"key": "tonofrefrigit",
+			"name": "ton of refrigeration (IT)",
+			"symbol": "",
+			"scale": "3.516853E3",
+			"offset": ""}
+			,
+			{"key": "w",
+			"name": "watt",
+			"symbol": "W",
+			"scale": "1",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "pressure",
+		"name": "pressure",
+		
+		"defaults": [{"fromUnit": "pa", "toUnit": "inh2o", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "atm",
+			"name": "atmosphere (standard)",
+			"symbol": "atm",
+			"scale": "101325",
+			"offset": ""}
+			,
+			{"key": "at",
+			"name": "atmosphere (technical)",
+			"symbol": "at",
+			"scale": "9.80665E4",
+			"offset": ""}
+			,
+			{"key": "bar",
+			"name": "bar",
+			"symbol": "bar",
+			"scale": "1E5",
+			"offset": ""}
+			,
+			{"key": "barye",
+			"name": "barye",
+			"symbol": "",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "cmHg",
+			"name": "centimeter of mercury",
+			"symbol": "cmHg",
+			"scale": "1.33322E3",
+			"offset": ""}
+			,
+			{"key": "cmh2o",
+			"name": "centimeter of water (4°C)",
+			"symbol": "cmH₂O",
+			"scale": "98.0638",
+			"offset": ""}
+			,
+			{"key": "dynpcm2",
+			"name": "dyne / centermeter²",
+			"symbol": "dyn/cm²",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "ftHg",
+			"name": "foot of mercury",
+			"symbol": "ftHg",
+			"scale": "40.63666E3",
+			"offset": ""}
+			,
+			{"key": "fth2o",
+			"name": "foot of water (39.2°F)",
+			"symbol": "ftH₂O",
+			"scale": "2.98898E3",
+			"offset": ""}
+			,
+			{"key": "gigapa",
+			"name": "gigapascal",
+			"symbol": "GPa",
+			"scale": "1E9",
+			"offset": ""}
+			,
+			{"key": "inHg",
+			"name": "inch of mercury",
+			"symbol": "inHg",
+			"scale": "3.386389E3",
+			"offset": ""}
+			,
+			{"key": "inh2o",
+			"name": "inch of water (39.2°F)",
+			"symbol": "inH₂O",
+			"scale": "249.082",
+			"offset": ""}
+			,
+			{"key": "kgfpermm2",
+			"name": "kilogram-force per millimeter²",
+			"symbol": "kgf/mm²",
+			"scale": "9.80665E6",
+			"offset": ""}
+			,
+			{"key": "kpa",
+			"name": "kilopascal",
+			"symbol": "kPa",
+			"scale": "1E3",
+			"offset": ""}
+			,
+			{"key": "ksi",
+			"name": "kip per inch²",
+			"symbol": "ksi",
+			"scale": "6.894757E6",
+			"offset": ""}
+			,
+			{"key": "megapa",
+			"name": "megapascal",
+			"symbol": "MPa",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "umHg",
+			"name": "micrometer of mercury",
+			"symbol": "μmHg",
+			"scale": "0.1333224",
+			"offset": ""}
+			,
+			{"key": "micronHg",
+			"name": "micron of mercury",
+			"symbol": "μmHg",
+			"scale": "0.1333224",
+			"offset": ""}
+			,
+			{"key": "mmHg",
+			"name": "millimeter of mercury",
+			"symbol": "mmHg",
+			"scale": "133.3224",
+			"offset": ""}
+			,
+			{"key": "mmH2O",
+			"name": "millimeter of water (3.98°C)",
+			"symbol": "mmH₂O",
+			"scale": "9.80638",
+			"offset": ""}
+			,
+			{"key": "mpa",
+			"name": "millipascal",
+			"symbol": "mPa",
+			"scale": "1E-3",
+			"offset": ""}
+			,
+			{"key": "pa",
+			"name": "pascal",
+			"symbol": "Pa",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "pz",
+			"name": "pièze",
+			"symbol": "pz",
+			"scale": "1E3",
+			"offset": ""}
+			,
+			{"key": "pdlperft2",
+			"name": "poundal / foot²",
+			"symbol": "pdl/ft²",
+			"scale": "1.488164",
+			"offset": ""}
+			,
+			{"key": "psf",
+			"name": "pound per square foot",
+			"symbol": "psf",
+			"scale": "47.88026",
+			"offset": ""}
+			,
+			{"key": "psi",
+			"name": "pound per square inch",
+			"symbol": "psi",
+			"scale": "6.894757E3",
+			"offset": ""}
+			,
+			{"key": "shorttonpersqft",
+			"name": "short ton / ft²",
+			"symbol": "",
+			"scale": "95.760518E3",
+			"offset": ""}
+			,
+			{"key": "torr",
+			"name": "torr",
+			"symbol": "torr",
+			"scale": "133.3224",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "radiationad",
+		"name": "radiation - absorbed dose",
+		
+		"defaults": [{"fromUnit": "gy", "toUnit": "rad", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "gy",
+			"name": "grey",
+			"symbol": "Gy",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "kilorad",
+			"name": "kilorad",
+			"symbol": "krad",
+			"scale": "10",
+			"offset": ""}
+			,
+			{"key": "megarad",
+			"name": "megarad",
+			"symbol": "Mrad",
+			"scale": "1E4",
+			"offset": ""}
+			,
+			{"key": "microrad",
+			"name": "microrad",
+			"symbol": "µrad",
+			"scale": "1E-8",
+			"offset": ""}
+			,
+			{"key": "millirad",
+			"name": "millirad",
+			"symbol": "mrad",
+			"scale": "1E-5",
+			"offset": ""}
+			,
+			{"key": "rad",
+			"name": "rad",
+			"symbol": "rad",
+			"scale": "0.01",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "radiationed",
+		"name": "radiation - equivalent dose",
+		
+		"defaults": [{"fromUnit": "sv", "toUnit": "rem", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "rem",
+			"name": "röntgen equivalent man",
+			"symbol": "rem",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "sv",
+			"name": "sievert",
+			"symbol": "Sv",
+			"scale": "1",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "radiationexp",
+		"name": "radiation - exposure",
+		
+		"defaults": [{"fromUnit": "cpkg", "toUnit": "r", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "cpkg",
+			"name": "coulomb per kilogram",
+			"symbol": "C/kg",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "r",
+			"name": "roentgen",
+			"symbol": "r",
+			"scale": "2.58E-4",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "radiationsa",
+		"name": "radiation - source activity",
+		
+		"defaults": [{"fromUnit": "bq", "toUnit": "rd", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "bq",
+			"name": "becquerel",
+			"symbol": "Bq",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "ci",
+			"name": "curie",
+			"symbol": "Ci",
+			"scale": "3.7E10",
+			"offset": ""}
+			,
+			{"key": "rd",
+			"name": "rutherford",
+			"symbol": "rd",
+			"scale": "1E6",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "specificheat",
+		"name": "specific heat",
+		
+		"defaults": [{"fromUnit": "jperkgk", "toUnit": "kjperkgk", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "jpergc",
+			"name": "joule per gram celsius",
+			"symbol": "J/(g⋅°C)",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "jperkgc",
+			"name": "joule per kilogram celsius",
+			"symbol": "J/(kg⋅°C)",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "jperkgk",
+			"name": "joule per kilogram kelvin",
+			"symbol": "J/(kg⋅K)",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "kjperkgc",
+			"name": "kilojoule per kilogram celsius",
+			"symbol": "kJ/(kg⋅°C)",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "kjperkgk",
+			"name": "kilojoule per kilogram kelvin",
+			"symbol": "kJ/(kg⋅K)",
+			"scale": "1000",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "velocity",
+		"name": "speed / velocity",
+		
+		"defaults": [{"fromUnit": "mpers", "toUnit": "fpers", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "cmpers",
+			"name": "centimeter per second",
+			"symbol": "cm/s",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "fperh",
+			"name": "foot per hour",
+			"symbol": "fph",
+			"scale": "8.466667E-5",
+			"offset": ""}
+			,
+			{"key": "fperm",
+			"name": "foot per minute",
+			"symbol": "fpm",
+			"scale": "5.08E-3",
+			"offset": ""}
+			,
+			{"key": "fpers",
+			"name": "foot per second",
+			"symbol": "fps",
+			"scale": "3.048E-1",
+			"offset": ""}
+			,
+			{"key": "inperm",
+			"name": "inch per minute",
+			"symbol": "ipm",
+			"scale": "4.23333333333333333E-4",
+			"offset": ""}
+			,
+			{"key": "inpers",
+			"name": "inch per second",
+			"symbol": "ips",
+			"scale": "2.54E-2",
+			"offset": ""}
+			,
+			{"key": "kmperh",
+			"name": "kilometer per hour",
+			"symbol": "km/h",
+			"scale": "2.777777777777777778E-1",
+			"offset": ""}
+			,
+			{"key": "knot",
+			"name": "knot",
+			"symbol": "kn",
+			"scale": "0.514444",
+			"offset": ""}
+			,
+			{"key": "machnumber",
+			"name": "mach number (20°C)",
+			"symbol": "M",
+			"scale": "343.2",
+			"offset": ""}
+			,
+			{"key": "mpers",
+			"name": "meter per second",
+			"symbol": "m/s",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "mileperh",
+			"name": "mile per hour",
+			"symbol": "mph",
+			"scale": "0.44704",
+			"offset": ""}
+			,
+			{"key": "mileperm",
+			"name": "mile per minute",
+			"symbol": "mpm",
+			"scale": "26.8224",
+			"offset": ""}
+			,
+			{"key": "milepers",
+			"name": "mile per second",
+			"symbol": "mps",
+			"scale": "1609.344",
+			"offset": ""}
+			,
+			{"key": "speedoflightinvac",
+			"name": "speed of light in a vacuum",
+			"symbol": "c",
+			"scale": "299792458",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "temperature",
+		"name": "temperature",
+		
+		"defaults": [{"fromUnit": "degC", "toUnit": "degF", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "degC",
+			"name": "celsius",
+			"symbol": "°C",
+			"scale": "1",
+			"offset": "273.15"}
+			,
+			{"key": "degDe",
+			"name": "delisle",
+			"symbol": "°De",
+			"scale": "-0.666666666666666666666667",
+			"offset": "373.15"}
+			,
+			{"key": "degF",
+			"name": "fahrenheit",
+			"symbol": "°F",
+			"scale": "0.555555555555555555555556",
+			"offset": "255.37222222222222222222222"}
+			,
+			{"key": "degK",
+			"name": "kelvin",
+			"symbol": "K",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "degN",
+			"name": "newton",
+			"symbol": "°N",
+			"scale": "3.030303030303030303030303030303030303",
+			"offset": "273.15"}
+			,
+			{"key": "degR",
+			"name": "rankine",
+			"symbol": "°Ra",
+			"scale": "0.555555555555555555555556",
+			"offset": ""}
+			,
+			{"key": "degre",
+			"name": "réaumur",
+			"symbol": "°Ré",
+			"scale": "1.25",
+			"offset": "273.15"}
+			
+		]}
+		,
+		{"key": "thermalconduct",
+		"name": "thermal conductivity",
+		
+		"defaults": [{"fromUnit": "wpermperk", "toUnit": "btuperhrftf", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "btuinpersqfthrf",
+			"name": "BTU inch per hour square foot fahrenheit",
+			"symbol": "BTU in/(hr·ft²⋅°F)",
+			"scale": "0.14422790000391756148827640998041",
+			"offset": ""}
+			,
+			{"key": "btuinpersqftsf",
+			"name": "BTU inch per second square foot fahrenheit",
+			"symbol": "BTU in/(s·ft²⋅°F)",
+			"scale": "519.22040003992015661298925325716",
+			"offset": ""}
+			,
+			{"key": "btuperhrftf",
+			"name": "BTU per hour foot fahrenheit",
+			"symbol": "BTU/(hr·ft⋅°F)",
+			"scale": "1.730735",
+			"offset": ""}
+			,
+			{"key": "calperseccmk",
+			"name": "calorie per second centimeter kelvin",
+			"symbol": "cal/(s·cm⋅K)",
+			"scale": "418.68000004819844160554860459763",
+			"offset": ""}
+			,
+			{"key": "kcalperhrftk",
+			"name": "kilocalorie per hour foot kelvin",
+			"symbol": "kcal/(hr·ft⋅K)",
+			"scale": "3.8156169995621304768578486804411",
+			"offset": ""}
+			,
+			{"key": "kcalperhrmk",
+			"name": "kilocalorie per hour meter kelvin",
+			"symbol": "kcal/(hr·m⋅K)",
+			"scale": "1.1629999999445249000026461622699",
+			"offset": ""}
+			,
+			{"key": "wpercmperk",
+			"name": "watts per centimeter kelvin",
+			"symbol": "W/(cm⋅K)",
+			"scale": "100",
+			"offset": ""}
+			,
+			{"key": "wpermperk",
+			"name": "watts per meter kelvin",
+			"symbol": "W/(m⋅K)",
+			"scale": "1",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "time",
+		"name": "time",
+		
+		"defaults": [{"fromUnit": "seconds", "toUnit": "hours", "sorting": "1"}],
+		  
+		"units": [
+		
+			{"key": "auot",
+			"name": "atomic unit of time",
+			"symbol": "au",
+			"scale": "2.418884254E-17",
+			"offset": ""}
+			,
+			{"key": "attoseconds",
+			"name": "attoseconds",
+			"symbol": "a",
+			"scale": "1E-18",
+			"offset": ""}
+			,
+			{"key": "day",
+			"name": "day",
+			"symbol": "d",
+			"scale": "86400",
+			"offset": ""}
+			,
+			{"key": "femtoseconds",
+			"name": "femtoseconds",
+			"symbol": "f",
+			"scale": "1E-15",
+			"offset": ""}
+			,
+			{"key": "hours",
+			"name": "hour",
+			"symbol": "h",
+			"scale": "3600",
+			"offset": ""}
+			,
+			{"key": "microseconds",
+			"name": "microseconds",
+			"symbol": "µ",
+			"scale": "1E-6",
+			"offset": ""}
+			,
+			{"key": "milliseconds",
+			"name": "millisecond",
+			"symbol": "m",
+			"scale": "1E-3",
+			"offset": ""}
+			,
+			{"key": "minutes",
+			"name": "minute",
+			"symbol": "min",
+			"scale": "60",
+			"offset": ""}
+			,
+			{"key": "monthg",
+			"name": "month (Greg av.)",
+			"symbol": "mo(Greg. av.)",
+			"scale": "2.6297E6",
+			"offset": ""}
+			,
+			{"key": "monthh",
+			"name": "month (hollow)",
+			"symbol": "mo(hollow)",
+			"scale": "2505600",
+			"offset": ""}
+			,
+			{"key": "months",
+			"name": "month (synodic)",
+			"symbol": "mo(synodic)",
+			"scale": "2.551E6",
+			"offset": ""}
+			,
+			{"key": "monthf",
+			"name": "month full",
+			"symbol": "mo(full)",
+			"scale": "2592000",
+			"offset": ""}
+			,
+			{"key": "nanoseconds",
+			"name": "nanoseconds",
+			"symbol": "n",
+			"scale": "1E-9",
+			"offset": ""}
+			,
+			{"key": "picoseconds",
+			"name": "picoseconds",
+			"symbol": "p",
+			"scale": "1E-12",
+			"offset": ""}
+			,
+			{"key": "seconds",
+			"name": "second",
+			"symbol": "s",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "week",
+			"name": "week",
+			"symbol": "wk",
+			"scale": "604800",
+			"offset": ""}
+			,
+			{"key": "yearg",
+			"name": "year (Greg)",
+			"symbol": "yr (Greg)",
+			"scale": "31556952",
+			"offset": ""}
+			,
+			{"key": "yearj",
+			"name": "year (Julian)",
+			"symbol": "yr (Julian)",
+			"scale": "31557600",
+			"offset": ""}
+			,
+			{"key": "years",
+			"name": "year (sidereal)",
+			"symbol": "yr (sidereal)",
+			"scale": "31558149.7632",
+			"offset": ""}
+			,
+			{"key": "yeart",
+			"name": "year (tropical)",
+			"symbol": "yr (tropical)",
+			"scale": "31556925",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "torque",
+		"name": "torque",
+		
+		"defaults": [{"fromUnit": "Nm", "toUnit": "ftlbtorque", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "dyncm",
+			"name": "dyne centimeter",
+			"symbol": "dyn cm",
+			"scale": "1E-7",
+			"offset": ""}
+			,
+			{"key": "ftpdltorque",
+			"name": "foot-poundal",
+			"symbol": "ft pdl",
+			"scale": "4.21401100938048E-2",
+			"offset": ""}
+			,
+			{"key": "ftlbtorque",
+			"name": "foot-pound force",
+			"symbol": "ft lbf",
+			"scale": "1.3558179483314004",
+			"offset": ""}
+			,
+			{"key": "inlbtorque",
+			"name": "inch-pound force",
+			"symbol": "in lbf",
+			"scale": "0.1129848290276167",
+			"offset": ""}
+			,
+			{"key": "mkg",
+			"name": "meter kilogram",
+			"symbol": "m kg",
+			"scale": "0.101971621",
+			"offset": ""}
+			,
+			{"key": "Nm",
+			"name": "newton meter",
+			"symbol": "Nm",
+			"scale": "1",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "viscosityd",
+		"name": "viscosity - dynamic",
+		
+		"defaults": [{"fromUnit": "pas", "toUnit": "lbpfts", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "centipoise",
+			"name": "centipoise",
+			"symbol": "cP",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "micropas",
+			"name": "micropascal second",
+			"symbol": "µPa·s",
+			"scale": "1E-6",
+			"offset": ""}
+			,
+			{"key": "millipas",
+			"name": "millipascal second",
+			"symbol": "mPa·s",
+			"scale": "1E-3",
+			"offset": ""}
+			,
+			{"key": "pas",
+			"name": "pascal second",
+			"symbol": "Pa·s",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "poise",
+			"name": "poise",
+			"symbol": "P",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "lbfspft2",
+			"name": "pound-force second per square foot",
+			"symbol": "lbf·s/ft²",
+			"scale": "47.88026",
+			"offset": ""}
+			,
+			{"key": "lbfspin2",
+			"name": "pound-force second per square inch",
+			"symbol": "lbf·s/in²",
+			"scale": "6894.757",
+			"offset": ""}
+			,
+			{"key": "lbpfth",
+			"name": "pound per foot hour",
+			"symbol": "lb/(ft·h)",
+			"scale": "4.133789E-4",
+			"offset": ""}
+			,
+			{"key": "lbpfts",
+			"name": "pound per foot second",
+			"symbol": "lb/(ft·s)",
+			"scale": "1.488164",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "viscosityk",
+		"name": "viscosity - kinematic",
+		
+		"defaults": [{"fromUnit": "m2ps", "toUnit": "ft2ps", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "cst",
+			"name": "centistokes",
+			"symbol": "cSt",
+			"scale": "1E-6",
+			"offset": ""}
+			,
+			{"key": "ft2ps",
+			"name": "square foot per second",
+			"symbol": "ft²/s",
+			"scale": "0.09290304",
+			"offset": ""}
+			,
+			{"key": "m2ps",
+			"name": "square meter per second",
+			"symbol": "m²/s",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "st",
+			"name": "stokes",
+			"symbol": "St",
+			"scale": "1E-4",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "volume",
+		"name": "volume",
+		
+		"defaults": [{"fromUnit": "m3", "toUnit": "ft3", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "acreft",
+			"name": "acre-foot",
+			"symbol": "ac ft",
+			"scale": "1233.48183754752",
+			"offset": ""}
+			,
+			{"key": "acrein",
+			"name": "acre-inch",
+			"symbol": "",
+			"scale": "102.79015312896",
+			"offset": ""}
+			,
+			{"key": "baruk",
+			"name": "barrel",
+			"symbol": "bl(Imp)",
+			"scale": "0.16365924",
+			"offset": ""}
+			,
+			{"key": "barreldry",
+			"name": "barrel (US dry)",
+			"symbol": "bl (US dry)",
+			"scale": "0.115628198985075",
+			"offset": ""}
+			,
+			{"key": "barus",
+			"name": "barrel (US fluid)",
+			"symbol": "bl(US fl)",
+			"scale": "0.119240471196",
+			"offset": ""}
+			,
+			{"key": "baroil",
+			"name": "barrel oil",
+			"symbol": "bbl(oil)",
+			"scale": "0.158987294928",
+			"offset": ""}
+			,
+			{"key": "boardfoot",
+			"name": "board-foot",
+			"symbol": "fbm",
+			"scale": "0.002359737216",
+			"offset": ""}
+			,
+			{"key": "busheluk",
+			"name": "bushel (Imp)",
+			"symbol": "bu Imp",
+			"scale": "0.03636872",
+			"offset": ""}
+			,
+			{"key": "bushelus",
+			"name": "bushel (US dry heaped)",
+			"symbol": "bu (US dry h)",
+			"scale": "0.0440488377086",
+			"offset": ""}
+			,
+			{"key": "bushellevelus",
+			"name": "bushel (US dry level)",
+			"symbol": "bu (US dry l)",
+			"scale": "0.03523907016688",
+			"offset": ""}
+			,
+			{"key": "centiliter",
+			"name": "centiliter",
+			"symbol": "cL",
+			"scale": "0.00001",
+			"offset": ""}
+			,
+			{"key": "cordfw",
+			"name": "cord firewood",
+			"symbol": "",
+			"scale": "3.624556363776",
+			"offset": ""}
+			,
+			{"key": "cordfoot",
+			"name": "cord-foot",
+			"symbol": "",
+			"scale": "0.453069545472",
+			"offset": ""}
+			,
+			{"key": "cm3",
+			"name": "cubic centimeter",
+			"symbol": "cm³",
+			"scale": "0.000001",
+			"offset": ""}
+			,
+			{"key": "dam3",
+			"name": "cubic decameter",
+			"symbol": "dam³",
+			"scale": "1E3",
+			"offset": ""}
+			,
+			{"key": "dm3",
+			"name": "cubic decimeter",
+			"symbol": "dm³",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "ft3",
+			"name": "cubic feet",
+			"symbol": "ft³",
+			"scale": "0.028316846592",
+			"offset": ""}
+			,
+			{"key": "hm3",
+			"name": "cubic hectometer",
+			"symbol": "hm³",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "in3",
+			"name": "cubic inch",
+			"symbol": "in³",
+			"scale": "0.000016387064",
+			"offset": ""}
+			,
+			{"key": "km3",
+			"name": "cubic kilometer",
+			"symbol": "km³",
+			"scale": "1E9",
+			"offset": ""}
+			,
+			{"key": "m3",
+			"name": "cubic meter",
+			"symbol": "m³",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "um3",
+			"name": "cubic micrometer",
+			"symbol": "µm³",
+			"scale": "1E-18",
+			"offset": ""}
+			,
+			{"key": "mi3",
+			"name": "cubic mile",
+			"symbol": "mi³",
+			"scale": "4168181825.440579584",
+			"offset": ""}
+			,
+			{"key": "mm3",
+			"name": "cubic millimeter",
+			"symbol": "mm³",
+			"scale": "1E-9",
+			"offset": ""}
+			,
+			{"key": "nm3",
+			"name": "cubic nanometer",
+			"symbol": "nm³",
+			"scale": "1E-27",
+			"offset": ""}
+			,
+			{"key": "yd3",
+			"name": "cubic yard",
+			"symbol": "yd³",
+			"scale": "0.764554857984",
+			"offset": ""}
+			,
+			{"key": "cupmetric",
+			"name": "cup (metric)",
+			"symbol": "",
+			"scale": "0.00025",
+			"offset": ""}
+			,
+			{"key": "cupus",
+			"name": "cup (US customary)",
+			"symbol": "c (US c)",
+			"scale": "0.0002365882365",
+			"offset": ""}
+			,
+			{"key": "decaliter",
+			"name": "decaliter",
+			"symbol": "daL",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "deciliter",
+			"name": "deciliter",
+			"symbol": "dL",
+			"scale": "0.0001",
+			"offset": ""}
+			,
+			{"key": "desertspoonuk",
+			"name": "desertspoon (Imp)",
+			"symbol": "",
+			"scale": "0.000011838776041666666666667",
+			"offset": ""}
+			,
+			{"key": "dropuk",
+			"name": "drop (Imp)",
+			"symbol": "gtt",
+			"scale": "0.000000098656467013888888889",
+			"offset": ""}
+			,
+			{"key": "dropus",
+			"name": "drop (US)",
+			"symbol": "gtt",
+			"scale": "0.000000082148693229166666667",
+			"offset": ""}
+			,
+			{"key": "galuk",
+			"name": "gallon",
+			"symbol": "gal(Imp)",
+			"scale": "0.00454609",
+			"offset": ""}
+			,
+			{"key": "galus",
+			"name": "gallon (US fluid)",
+			"symbol": "gal(US fl)",
+			"scale": "0.003785411784",
+			"offset": ""}
+			,
+			{"key": "giluk",
+			"name": "gill (Imp)",
+			"symbol": "gi",
+			"scale": "0.0001420653125",
+			"offset": ""}
+			,
+			{"key": "gilus",
+			"name": "gill (US)",
+			"symbol": "gi",
+			"scale": "0.00011829411825",
+			"offset": ""}
+			,
+			{"key": "hectoliter",
+			"name": "hectoliter",
+			"symbol": "hL",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "hogsheadus",
+			"name": "hogshead",
+			"symbol": "hhd (US)",
+			"scale": "0.238480942392",
+			"offset": ""}
+			,
+			{"key": "hogsheaduk",
+			"name": "hogshead",
+			"symbol": "hhd (Imp)",
+			"scale": "0.32731848",
+			"offset": ""}
+			,
+			{"key": "jigger",
+			"name": "jigger",
+			"symbol": "",
+			"scale": "0.000044360294343750005",
+			"offset": ""}
+			,
+			{"key": "kiloliter",
+			"name": "kiloliter",
+			"symbol": "kL",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "liter",
+			"name": "liter",
+			"symbol": "L",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "megaliter",
+			"name": "megaliter",
+			"symbol": "ML",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "uL",
+			"name": "microliter",
+			"symbol": "µL",
+			"scale": "1E-9",
+			"offset": ""}
+			,
+			{"key": "milliliter",
+			"name": "milliliter",
+			"symbol": "mL",
+			"scale": "1E-6",
+			"offset": ""}
+			,
+			{"key": "minimuk",
+			"name": "minim (Imp)",
+			"symbol": "",
+			"scale": "0.0000000591938802083333333333333",
+			"offset": ""}
+			,
+			{"key": "minimus",
+			"name": "minim (US)",
+			"symbol": "",
+			"scale": "0.000000061611519921875",
+			"offset": ""}
+			,
+			{"key": "nL",
+			"name": "nanoliter",
+			"symbol": "nL",
+			"scale": "1E-12",
+			"offset": ""}
+			,
+			{"key": "flozuk",
+			"name": "ounce (fluid Imp)",
+			"symbol": "fl oz(Imp)",
+			"scale": "0.0000284130625",
+			"offset": ""}
+			,
+			{"key": "flozus",
+			"name": "ounce (US fluid customary)",
+			"symbol": "fl oz(US fl)",
+			"scale": "0.0000295735295625",
+			"offset": ""}
+			,
+			{"key": "peckuk",
+			"name": "peck (Imp)",
+			"symbol": "pk Imp",
+			"scale": "0.00909218",
+			"offset": ""}
+			,
+			{"key": "peckus",
+			"name": "peck (US dry)",
+			"symbol": "pk (US dry)",
+			"scale": "0.00880976754172",
+			"offset": ""}
+			,
+			{"key": "pintuk",
+			"name": "pint",
+			"symbol": "pt(Imp)",
+			"scale": "0.00056826125",
+			"offset": ""}
+			,
+			{"key": "pintdry",
+			"name": "pint (US dry)",
+			"symbol": "pt (US dry)",
+			"scale": "0.0005506104713575",
+			"offset": ""}
+			,
+			{"key": "pintus",
+			"name": "pint (US fluid)",
+			"symbol": "pt(US fl)",
+			"scale": "0.000473176473",
+			"offset": ""}
+			,
+			{"key": "quartuk",
+			"name": "quart",
+			"symbol": "qt(Imp)",
+			"scale": "0.0011365225",
+			"offset": ""}
+			,
+			{"key": "quartdry",
+			"name": "quart (US dry)",
+			"symbol": "qt (US dry)",
+			"scale": "0.001101220942715",
+			"offset": ""}
+			,
+			{"key": "quartus",
+			"name": "quart (US fluid)",
+			"symbol": "qt(US fl)",
+			"scale": "0.000946352946",
+			"offset": ""}
+			,
+			{"key": "tablespoonam",
+			"name": "tablespoon (Australian metric)",
+			"symbol": "",
+			"scale": "20E-6",
+			"offset": ""}
+			,
+			{"key": "tablespoonc",
+			"name": "tablespoon (Canadian)",
+			"symbol": "tbsp (c)",
+			"scale": "14.20653125E-6",
+			"offset": ""}
+			,
+			{"key": "tablespoonaimp",
+			"name": "tablespoon (Imp)",
+			"symbol": "tbsp",
+			"scale": "17.7581640625E-6",
+			"offset": ""}
+			,
+			{"key": "tablespoonus",
+			"name": "tablespoon (US customary)",
+			"symbol": "tbsp (US c)",
+			"scale": "14.7867647825E-6",
+			"offset": ""}
+			,
+			{"key": "tablespoonusfl",
+			"name": "tablespoon (US food labeling)",
+			"symbol": "tbsp (US fl)",
+			"scale": "1.5E-5",
+			"offset": ""}
+			,
+			{"key": "tablespoonm",
+			"name": "tablespoon metric",
+			"symbol": "",
+			"scale": "15E-6",
+			"offset": ""}
+			,
+			{"key": "teaspoonc",
+			"name": "teaspoon (Canadian)",
+			"symbol": "tsp (c)",
+			"scale": "4.735510416666666666666666666666E-6",
+			"offset": ""}
+			,
+			{"key": "teaspoonaimp",
+			"name": "teaspoon (Imp)",
+			"symbol": "tsp",
+			"scale": "5.919388020833333333333333333333E-6",
+			"offset": ""}
+			,
+			{"key": "teaspoonus",
+			"name": "teaspoon (US customary)",
+			"symbol": "tsp (US c)",
+			"scale": "4.928921595E-6",
+			"offset": ""}
+			,
+			{"key": "teaspoonam",
+			"name": "teaspoon (US food labeling)",
+			"symbol": "tsp (US fl)",
+			"scale": "5E-6",
+			"offset": ""}
+			,
+			{"key": "teaspoonm",
+			"name": "teaspoon metric",
+			"symbol": "",
+			"scale": "5E-6",
+			"offset": ""}
+			,
+			{"key": "tun",
+			"name": "tun",
+			"symbol": "",
+			"scale": "0.953923769568",
+			"offset": ""}
+			
+		]}
+		,
+		{"key": "mass",
+		"name": "weight / mass",
+		
+		"defaults": [{"fromUnit": "kg", "toUnit": "pound", "sorting": "0"}],
+		  
+		"units": [
+		
+			{"key": "amu",
+			"name": "automic mass unit",
+			"symbol": "AMU",
+			"scale": "1.66053873E-27",
+			"offset": ""}
+			,
+			{"key": "carat",
+			"name": "carat metric",
+			"symbol": "ct",
+			"scale": "0.0002",
+			"offset": ""}
+			,
+			{"key": "caretkt",
+			"name": "caret",
+			"symbol": "kt",
+			"scale": "0.000205196548333",
+			"offset": ""}
+			,
+			{"key": "cg",
+			"name": "centigram",
+			"symbol": "cg",
+			"scale": "0.00001",
+			"offset": ""}
+			,
+			{"key": "da",
+			"name": "Dalton",
+			"symbol": "Da",
+			"scale": "1.66090210E-27",
+			"offset": ""}
+			,
+			{"key": "dag",
+			"name": "decagram",
+			"symbol": "dag",
+			"scale": "0.01",
+			"offset": ""}
+			,
+			{"key": "dg",
+			"name": "decigram",
+			"symbol": "dg",
+			"scale": "0.0001",
+			"offset": ""}
+			,
+			{"key": "dramap",
+			"name": "dram",
+			"symbol": "dr t",
+			"scale": "0.0038879345999852442",
+			"offset": ""}
+			,
+			{"key": "dram",
+			"name": "dram (av)",
+			"symbol": "dr av",
+			"scale": "0.001771845195322818",
+			"offset": ""}
+			,
+			{"key": "eV",
+			"name": "electronvolt",
+			"symbol": "eV",
+			"scale": "1.7826E-36",
+			"offset": ""}
+			,
+			{"key": "gamma",
+			"name": "gamma",
+			"symbol": "γ",
+			"scale": "0.000000001",
+			"offset": ""}
+			,
+			{"key": "Gg",
+			"name": "gigagrams",
+			"symbol": "Gg",
+			"scale": "1E6",
+			"offset": ""}
+			,
+			{"key": "grain",
+			"name": "grain",
+			"symbol": "",
+			"scale": "0.000064798910000006",
+			"offset": ""}
+			,
+			{"key": "g",
+			"name": "gram",
+			"symbol": "g",
+			"scale": "0.001",
+			"offset": ""}
+			,
+			{"key": "hg",
+			"name": "hectogram",
+			"symbol": "hg",
+			"scale": "0.1",
+			"offset": ""}
+			,
+			{"key": "kg",
+			"name": "kilograms",
+			"symbol": "kg",
+			"scale": "1",
+			"offset": ""}
+			,
+			{"key": "kip",
+			"name": "kip",
+			"symbol": "kip",
+			"scale": "453.59237",
+			"offset": ""}
+			,
+			{"key": "grosscwt",
+			"name": "long hundredweight",
+			"symbol": "cwt",
+			"scale": "50.80234686521578",
+			"offset": ""}
+			,
+			{"key": "longton",
+			"name": "long ton",
+			"symbol": "long tn",
+			"scale": "1016.0469088",
+			"offset": ""}
+			,
+			{"key": "Mg",
+			"name": "megagrams",
+			"symbol": "Mg",
+			"scale": "1E3",
+			"offset": ""}
+			,
+			{"key": "metricton",
+			"name": "metric tonne",
+			"symbol": "t",
+			"scale": "1000",
+			"offset": ""}
+			,
+			{"key": "ug",
+			"name": "microgram",
+			"symbol": "µg",
+			"scale": "1E-9",
+			"offset": ""}
+			,
+			{"key": "mg",
+			"name": "milligram",
+			"symbol": "mg",
+			"scale": "0.000001",
+			"offset": ""}
+			,
+			{"key": "ng",
+			"name": "nanogram",
+			"symbol": "ng",
+			"scale": "1E-12",
+			"offset": ""}
+			,
+			{"key": "ounce",
+			"name": "ounce (av)",
+			"symbol": "oz av",
+			"scale": "0.028349523124662778",
+			"offset": ""}
+			,
+			{"key": "ozfood",
+			"name": "ounce (food labeling)",
+			"symbol": "oz",
+			"scale": "0.028",
+			"offset": ""}
+			,
+			{"key": "dwt",
+			"name": "pennyweight",
+			"symbol": "dwt",
+			"scale": "0.0015551738400061907",
+			"offset": ""}
+			,
+			{"key": "pound",
+			"name": "pound (av)",
+			"symbol": "lb av",
+			"scale": "0.4535923703803783",
+			"offset": ""}
+			,
+			{"key": "quintal",
+			"name": "quintal metric",
+			"symbol": "q",
+			"scale": "100",
+			"offset": ""}
+			,
+			{"key": "scruple",
+			"name": "scruple",
+			"symbol": "s ap",
+			"scale": "0.0012959781999950814",
+			"offset": ""}
+			,
+			{"key": "cwt",
+			"name": "short hundredweight",
+			"symbol": "sh cwt",
+			"scale": "45.359229219689716",
+			"offset": ""}
+			,
+			{"key": "shortton",
+			"name": "short ton",
+			"symbol": "sh tn",
+			"scale": "907.1858188712794",
+			"offset": ""}
+			,
+			{"key": "slug",
+			"name": "slug",
+			"symbol": "slug",
+			"scale": "14.593902999991704",
+			"offset": ""}
+			,
+			{"key": "stone",
+			"name": "stone",
+			"symbol": "st",
+			"scale": "6.35029317999071",
+			"offset": ""}
+			,
+			{"key": "troyoz",
+			"name": "troy ounce",
+			"symbol": "oz t",
+			"scale": "0.03110347679867267",
+			"offset": ""}
+			,
+			{"key": "troypound",
+			"name": "troy pound",
+			"symbol": "lb t",
+			"scale": "0.3732417217001632",
+			"offset": ""}
+			
+		]}
+		
+    ]
+  
