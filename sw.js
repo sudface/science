@@ -1,4 +1,4 @@
-var CACHE_NAME = 'einthusan-dl';
+var CACHE_NAME = 'science';
 var urlsToCache = [
   './',
   './PeriodicTable.html',
