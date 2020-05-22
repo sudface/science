@@ -1,0 +1,123 @@
+div#table-content {
+	margin-left: -27px !important;
+	position: relative;
+}
+
+.table-options-button-close {
+	float: right;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 30px;
+	margin-top: -18px;
+	padding-left: 5px; 
+	padding-right: 5px; 
+	padding-bottom: 2px; 
+	padding-top: 2px;
+}
+
+.table-options {
+	display: none;
+	height: 150px;
+	width: 100%;
+	position: relative;
+	left: -27px;
+	top: -17px;
+	background-color: white;
+}
+
+.table-options-button-close span:first-child {
+	margin-top: 2px;
+	margin-left: 5px;
+	float: right;
+}
+
+.popup-content {
+    width: 676px;
+    height: 435px;
+    overflow: auto;
+}
+
+.column-data tr td:first-child {
+    font-weight: bold;
+    width: 200px;
+	background: transparent;
+	border: none;
+}
+
+.ui-default-fix {
+	background: none !important;
+	border: none !important;
+}
+
+.vapor-pressure {
+    border-collapse: collapse;
+}
+
+.vapor-pressure tr td {
+    width: 90px;
+}
+
+.ui-unit-symbol {
+	background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#0093F0)); 
+	background: -moz-linear-gradient(top, #000, #0093F0); 
+	display:inline-block; 
+	float: right;
+	margin-right: 10px; 
+	color:#00FF00; 
+	padding: 0 5px; 
+	border-radius: 3px; 
+	-moz-border-radius: 3px;
+}
+
+.main-tab-img {
+	width: 16px;
+	height: 16px;
+	margin-left: -10px;
+	margin-right: 10px;
+	background-size: 16px 16px;
+	background-repeat: no-repeat;
+}
+
+#tools {
+	padding: 0px;
+}
+
+#toolsmenu ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+    overflow: auto;
+    width: 250px;
+    font-size: 12pt;
+}
+
+#toolsmenu ul a {
+	text-decoration: none;
+    white-space: nowrap;
+}
+
+#toolsmenu ul li {
+	padding: 0px 0px 0px 10px;
+}
+
+.default-ui-fix {
+	background: transparent !important;
+	border: none !important;
+}
+
+.tools-panel {
+	padding: 5px;
+	background-color: #74736D;
+}
+
+.datatable th[type='left'] {
+	text-align: left;
+}
+
+.datatable td[type='center'] {
+	text-align: center;
+}
+
+.datatable th {
+	color: #B8EC79;
+}

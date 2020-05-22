@@ -1,0 +1,58 @@
+@import url("../base.css");
+@import url("jquery.ui.all.css");
+
+body {
+	background-color: #555555 !important;
+}
+
+.maintab-table {
+	background-image: url(../../images/document_on.png);
+}
+
+.maintab-table.maintab-selected {
+	background-image: url(../../images/document_off.png) !important;
+}
+
+.maintab-quiz {
+	background-image: url(../../images/bulb_on.png);
+}
+
+.maintab-quiz.maintab-selected {
+	background-image: url(../../images/bulb_off.png);
+}
+
+.maintab-prefs {
+	background-image: url(../../images/gear_on.png);
+}
+
+.maintab-prefs.maintab-selected {
+	background-image: url(../../images/gear_off.png);
+}
+
+.maintab-tools {
+	background-image: url(../../images/tools_on.png);
+}
+
+.maintab-tools.maintab-selected {
+	background-image: url(../../images/tools_off.png);
+}
+
+.maintab-about {
+	background-image: url(../../images/info_on.png);
+}
+
+.maintab-about.maintab-selected {
+	background-image: url(../../images/info_off.png);
+}
+
+table, .column-data tr, .vapor-pressure tr, label, p, b {
+    color: #555555 !important;
+}
+
+.vapor-pressure tr td {
+    border: 1px solid #555555;
+}
+
+.tools-panel {
+    background-image: -webkit-gradient(linear, 0 100%, 0 0%, color-stop(0.27, #CFCFCF), color-stop(0.64, #E7E7E8), color-stop(0.82, #F1F1F2));
+}
