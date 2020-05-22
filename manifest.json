@@ -1,0 +1,25 @@
+{
+  "short_name": "Periodic Table",
+  "name": "Useful Periodic Table",
+  "icons": [
+    {
+      "src": "./favicon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./icon-16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "./favicon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://sudface.github.io/science/PeriodicTable.html",
+  "display": "standalone",
+  "theme_color": "#b8ec79",
+  "background_color": "#000000"
+}
