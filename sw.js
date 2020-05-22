@@ -1,17 +1,17 @@
 var CACHE_NAME = 'einthusan-dl';
 var urlsToCache = [
-  '/',
-  'PeriodicTable.html',
-  'index.html',
-  'about.html',
-  '/images/',
-  '/js/',
-  '/css/trontastic/',
-  '/css/base.css',
-  '/css/flexigrid.css',
-  '/css/jquery-search.css',
-  '/css/pt.css',
-  '/css/ui.selectmenu.css'
+  './',
+  './PeriodicTable.html',
+  './index.html',
+  './about.html',
+  './images/',
+  './js/',
+  './css/trontastic/',
+  './css/base.css',
+  './css/flexigrid.css',
+  './css/jquery-search.css',
+  './css/pt.css',
+  './css/ui.selectmenu.css'
 ];
 
 self.addEventListener('install', function(event) {
