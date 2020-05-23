@@ -21,5 +21,12 @@
   "start_url": "https://sudface.github.io/science/PeriodicTable.html",
   "display": "standalone",
   "theme_color": "#b8ec79",
-  "background_color": "#000000"
+  "background_color": "#000000",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "com.craigseaver.periodictable.lite"
+    }
+  ]
 }
