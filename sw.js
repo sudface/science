@@ -1,4 +1,5 @@
-var CACHE_NAME = 'science';
+var vers = 02
+var CACHE_NAME = 'science' + vers;
 var urlsToCache = [
   './',
   './PeriodicTable.html',
