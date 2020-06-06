@@ -9,7 +9,8 @@
 	<script>
 	function setcookie() {
 document.cookie = "first=false; expires=Wed, 30 Dec 2037 12:00:00 UTC";
-window.location.href = "https://sudface.github.io/science";
+if (document.referrer != "https://sudface.github.io/science/") 
+    {window.location.href = "https://sudface.github.io/science";}
 }
 if (document.cookie != "first=false") {setcookie()} 
 	</script>
