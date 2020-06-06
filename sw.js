@@ -1,4 +1,13 @@
-var vers = 05
+var vers = 06
+// v1: Service Worker and GH Pages Test
+// v2: Offline Capability
+// v3: PWA-Enabled
+// v4: Modernising Logos, Copyright Text
+// v5: Updated contextual errors
+// v5a: Updated entry page text
+// v6: First time check and redir
+// v7: Todo!
+
 var CACHE_NAME = 'science' + vers;
 var urlsToCache = [
   './',
