@@ -1,4 +1,4 @@
-var vers = 04a
+var vers = 05
 var CACHE_NAME = 'science' + vers;
 var urlsToCache = [
   './',
